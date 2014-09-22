@@ -1,0 +1,1410 @@
+SG;Language Description and Font
+#99:001:01:TiÕng ViÖt
+#99:001:02:.vnArial
+#99:001:03: #$% '£Ñ*Å-./0123456789:Ø<>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ
+#000
+;Form Login
+Select Data form
+#01:001:01:Lùa chän d÷ liÖu cho ch­¬ng tr×nh
+#01:001:02:Th­ môc hiÖn t¹i
+#01:001:03:Lùa chän d÷ liÖu cã s½n
+#01:001:04:T¹o d÷ liÖu míi 
+#01:001:05: &§ãng
+#01:001:06: TiÕp tôc >>
+#000
+;Open File,Save File form
+#01:002:01:TËp tin
+#01:002:02:Th­ môc
+#01:002:03:D¹ng tËp tin
+#01:002:04:§Üa hÖ thèng
+#01:002:05: &§ång ý
+#01:002:06: §ã&ng
+#01:002:07: M¹ng LAN
+#000
+;Login form
+#01:003:01:§¨ng nhËp
+#01:003:02:B¹n vui lßng nhËp m· sè vµo ca:
+#01:003:03:B¹n vui lßng nhËp mËt khÈu:
+#01:003:04: HÖ thèng
+#01:003:05:Lùa chän d÷ liÖu cho ch­¬ng tr×nh
+#01:003:06:Lùa chän ng«n ng÷
+#01:003:07:Nh©n viªn
+#01:003:08:Nhãm hµng
+#01:003:09:M· hµng
+#01:003:10:Danh môc nguyªn liÖu
+#01:003:11:B¶ng ®Þnh l­îng nguyªn liÖu
+#01:003:12:§Þnh nghÜa m¸y in
+#01:003:13:Th«ng tin s¶n phÈm
+#01:003:14:§ãng
+#01:003:15:QuÇy sè:
+#01:003:16:T¾t m¸y
+#01:003:17:T¹m nghØ
+#01:003:18:B¹n nhËp sai m· sè, hoÆc b¹n kh«ng cã quyÒn ®¨ng nhËp!
+#01:003:19:B¹n nhËp sai mËt khÈu, Xin vui lãng nhËp l¹i !!
+#01:003:20:Nhãm chñ
+#01:003:21:Kh¸ch hµng
+#01:003:22:Nhµ cung cÊp
+#01:003:23:Cµi ®Æt hÖ thèng
+#000
+;Table Plan form
+#01:004:01:S¬ ®å bµn
+#01:004:02: Th&o¸t ca
+#01:004:03: &ThiÕt lËp s¬ ®å bµn
+#01:004:04: &ChØnh söa danh môc
+#01:004:05: Më &kÐt
+#01:004:06: &Xö lý bµn lçi
+#01:004:07:Bµn ph¸t sinh
+#01:004:08:Khu vùc:
+#01:004:09:&Backup d÷ liÖu
+#000
+;Password form
+#01:005:01:MËt khÈu
+#01:005:02:NhËp mËt khÈu ng­êi qu¶n lý
+#01:005:03: Hñy bá
+#01:005:04: Bµn phÝm
+#01:005:05: §ång ý
+#000
+#01:006:01:MÆc ®Þnh m¸y in
+#01:006:02:Hãa ®¬n
+#01:006:03:B¸o c¸o
+#01:006:04:M· v¹ch
+#01:006:05:L­u / Tho¸t
+#01:006:06:Gióp ®ì
+#01:006:07:Chän lo¹i b¸o biÓu
+#01:006:08:Chän m¸y in hiÓn thÞ
+#000
+;Order form
+#01:007:01:Sè H§
+#01:007:02:Sè bµn
+#01:007:03:Khu vùc
+#01:007:04:Nh©n viªn
+#01:007:05:Tæng céng:
+#01:007:06:ThuÕ:
+#01:007:07:Sè l­îng
+#01:007:08:Xãa
+#01:007:09:Gi¶m % tæng H§
+#01:007:10:Mãn ngoµi menu
+#01:007:11:Gi¶m %  mãn
+#01:007:12:Sè kh¸ch
+#01:007:13:%Phô phÝ
+#01:007:14:Kh¸ch hµng
+#01:007:15:ChuyÓn bµn
+#01:007:16:T¹m tÝnh          F2
+#01:007:17:Thanh t o¸n     F4
+#01:007:18:Tho ¸t             ESC
+#01:007:19:DiÔn gi¶i
+#01:007:20:S/L
+#01:007:21:§.Gi¸
+#01:007:22:T.TiÒn
+#01:007:23:Chän mãn ¨n
+#01:007:24:Gép bµn
+#01:007:25:In H§             F3
+#01:007:26:Gi¸ më
+#01:007:27:Söa sai SL
+#01:007:28:PhÝm chøc n¨ng
+#01:007:29:ChØnh söa danh môc
+#01:007:30:T¸ch bill
+#01:007:31:ChuyÓn mãn
+#01:007:32:TT Ngo¹i tÖ
+#01:007:33:§ãng
+#01:007:34:Lùa chän Chøc n¨ng-
+#01:007:35:Thanh to¸n:
+#01:007:36:Gi¸ 2
+#01:007:37:Gi¸ 3
+#01:007:38:Th«ng tin bÕp
+#01:007:39:Gi¶m % T¡
+#01:007:40:Gi¶m% thøc uèng
+#01:007:41:Nh¾c mãn
+#01:007:42:Söa tªn mãn
+#01:007:43:Gëi bÕp
+#01:007:44:T×m kiÕm...
+#01:007:45:§ãng
+#01:007:46:T¨ng/Gi¶m tiÒn mÆt
+#01:007:47:Lùa chän ng«n ng÷
+#01:007:48:VAT
+#01:007:49:Söa gi¸
+#01:007:50:Gi¶m gi¸
+#01:007:51:Adjustment 3
+#01:007:52:Adjustment 4
+#01:007:53:Adjustment 5
+#01:007:54:Adjustment 6
+#000
+#01:008:01:Danh môc kh¸ch hµng
+#01:008:02:M· kh¸ch hµng(*)
+#01:008:03:Tªn Kh¸ch hµng(*)
+#01:008:04:C«ng ty(*)
+#01:008:05:§Þa chØ
+#01:008:06:§iÖn tho¹i
+#01:008:07:Fax
+#01:008:08:Ngµy sinh
+#01:008:09:M· sè thuÕ
+#01:008:10:Sè tµi kho¶n
+#01:008:11:Nhãm kh¸ch hµng:
+#01:008:12: Thªm
+#01:008:13: CËp NhËt
+#01:008:14:Ng­ng 
+#01:008:15: Xãa
+#01:008:16:Gióp ®ì
+#01:008:17: §ãng
+#01:008:18:T¹o míi
+#01:008:19:Hñy bá
+#01:008:20: Trî gióp
+#01:008:21:T¹o míi th«ng tin kh¸ch hµng
+#01:008:22:Th«ng tin kh¸ch hµng
+#01:008:23:Ngµy më tµi kho¶n
+#01:008:24:Ngµy kÕt thóc
+#01:008:25:Nh©n viªn 
+#01:008:26:C«ng nî max:
+#01:008:27:C«ng nî hiÖn t¹i
+#01:008:28:NhËt ký mua hµng
+#01:008:29:Thanh to¸n c«ng nî
+#01:008:30:Th«ng tin tµi kho¶n
+#01:008:31:Chän H§ thanh to¸n
+#01:008:32:H×nh thøc thanh to¸n
+#01:008:33:Sè tiÒn
+#01:008:34:Thanh to¸n
+#01:008:35:In TBCN
+#01:008:36: Hñy bá
+#01:008:37: Th«ng tin kh¸ch hµng
+#01:008:38:T ×m kiÕm
+#000
+#01:009:01:Danh môc nhËp xuÊt
+#01:009:02:M· NhËp xuÊt(*)
+#01:009:03:DiÔn gi¶i nhËp xuÊt(*)
+#01:009:04: Thªm 
+#01:009:05: Xãa
+#01:009:06: CËp nhËt
+#01:009:07:Gióp ®ì
+#01:009:08: §ãng
+#01:009:09: Söa
+#01:009:10:M· Kho¶n thu(*)
+#01:009:11:DiÔn gi¶i thu(*)
+#01:009:12:Danh môc c¸c kho¶n thu
+#01:009:13:Danh môc c¸c kho¶n Chi
+#01:009:14:M· Chi(*)
+#01:009:15:DiÔn gi¶i chi
+#000
+#01:010:01:Tû lÖ thuÕ
+#01:010:02:ThuÕ suÊt 1
+#01:010:03:ThuÕ suÊt 2
+#01:010:04:ThuÕ suÊt 3
+#01:010:05:DiÔn gi¶i
+#01:010:06:Gi¸ trÞ cò
+#01:010:07:Gi¸ trÞ míi
+#01:010:08: §ång ý
+#01:010:09: Hñy bá
+#01:010:10:ThuÕ suÊt 4
+#000'Main group
+#01:011:01:STT
+#01:011:02:Tªn nhãm chÝnh
+#01:011:03:Th«ng tin nhãm chÝnh
+#01:011:04: Thªm
+#01:011:05: L­u
+#01:011:06:Gióp ®ì
+#01:011:07: §ãng
+#01:011:08:T×m  kiÕm
+#01:011:09: Bµn phÝm
+#000
+' Nhãm hµng
+#01:012:01:M· nhãm :
+#01:012:02:Tªn nhãm:
+#01:012:03:Th«ng tin nhãm hµng
+#01:012:04: Thªm
+#01:012:05: L­u
+#01:012:06:Gióp ®ì
+#01:012:07: §ãng
+#01:012:08:T×m  kiÕm
+#01:012:09: Bµn phÝm
+#01:012:09:Liªn kÕt víi nhãm chÝnh
+#01:012:10:Nhãm chÝnh
+#01:012:11:Cê nhãm hµng
+#01:012:12:Gi¶m % Thøc ¨n
+#01:012:13:Gi¶m % Thøc uèng
+#01:012:14:Adjustment 3
+#01:012:15:Adjustment 4
+#01:012:16:e.Not used
+#01:012:17:f.Not used
+#01:012:18:g.Not used
+#01:012:19:h.Not used
+#000
+#01:013:01:ThiÕt lËp danh s¸ch c¸c m· hµng lµm nguyªn liÖu
+#01:013:02: Thªm míi
+#01:013:03: Xãa
+#01:013:04: T×m KiÕm
+#01:013:05: Gióp ®ì
+#01:013:06:§ãn g
+#01:013:07:Th«ng tin nguyªn liÖu
+#01:013:08:Mét m· hµng:
+#01:013:09:Mét d·y MH:
+#01:013:10:MH b¾t ®Çu:
+#01:013:11:MH kÕt thóc:
+#01:013:12:M· hµng
+#01:013:13:Tªn hµng
+#01:013:14:§VT
+#01:013:15:Tån tèi thiÓu:
+#01:013:16:T¹o míi danh s¸ch nguyªn liÖu
+#01:013:17:Xãa danh s¸ch nguyªn liÖu
+#01:013:18:Xãa  1 m· hµng
+#01:013:19:Xãa 1 d·y m· hµng
+#01:013:20: MH b¾t ®Çu:
+#01:013:21:MH  kÕt thóc:
+#01:013:22: §ång ý
+#01:013:23: §ãng
+#01:013:24:Gi¸:
+#000
+#01:014:01:Danh môc nhµ cung cÊp
+#01:014:02:M· nhµ cung cÊp(*)
+#01:014:03:Tªn nhµ cung cÊp(*)
+#01:014:04:C«ng ty(*)
+#01:014:05:§Þa chØ 1
+#01:014:06:§Þa chØ 2
+#01:014:07:§iÖn tho¹i
+#01:014:08:Sè Fax
+#01:014:09:M· sè thuÕ
+#01:014:10:M· tµi kho¶n
+#01:014:11:Email
+#01:014:12:Website
+#01:014:13: Thªm/CËp nhËt
+#01:014:14: Xãa
+#01:014:15: CËp nhËt
+#01:014:16: Gióp ®ì
+#01:014:17: §ãng
+#01:014:18:Hñy bá
+#000
+;SetMenuLink
+#01:015:01:ThiÕt lËp menu cho c¸c m· hµng
+#01:015:02: Thªm mãn
+#01:015:03: Xãa mãn
+#01:015:04: Gióp ®ì
+#01:015:05:§ãn g
+#01:015:06: T×m nhanh
+#01:015:07: Thªm
+#01:015:08:§Þnh l­îng menu
+#01:015:09:M· Hµng tõ Menu:
+#01:015:10: Néi dung:
+...................Flex
+#01:015:11:M·Hµng
+#01:015:12:TªnHµng
+#01:015:13:Tû lÖ Kho
+#01:015:14:Nguyªn liÖu nµy ®· ®­îc set trong menu
+#01:015:15:In DS nguyªn liÖu
+#01:015:16:Danh s¸ch ®Þnh møc nguyªn liÖu
+#01:015:17:M· hµng
+#01:015:18:Tªn hµng
+#01:015:19:§VT
+#01:015:20:Tû lÖ kho
+#01:015:21:Gi¸ vèn / %Vèn/B¸n
+#01:015:22:Tæng céng:
+#000
+;Pickup Form
+#01:016:01:Cöa sæ t×m kiÕm nhanh
+#01:016:02:Chuç i cÇn t×m
+#01:016:03: Chän
+#01:016:04: §ãng
+.........Flex Caption
+#01:016:05:Stt
+#01:016:06:M· sè
+#01:016:07:Tªn
+#000
+#01:017:01:Danh s¸ch M· Hµng
+#01:017:02: Thªm
+#01:017:03: L­u
+#01:017:04: Xãa
+#01:017:05:T×m  KiÕm
+#01:017:06:§ãn g
+#01:017:07:Th«ng tin mãn
+#01:017:08:Cê ®iÒu khiÓn
+#01:017:09:H×nh ¶nh
+#01:017:10:M· hµng
+#01:017:11:Tªn hµng
+#01:017:12:Nhãm hµng
+#01:017:13:Gi¸ chuÈn 1
+#01:017:14:Gi¸ chuÈn 2
+#01:017:15:Gi¸ chuÈn 3
+#01:017:16:Happy hour 1
+#01:017:17:Happy hour 2
+#01:017:18:Happy hour 3
+#01:017:19:Everning price 1
+#01:017:20:Everning price 2
+#01:017:21:Everning price 3
+#01:017:22:Mµu hiÓn thÞ
+#01:017:23:§VT
+#01:017:24:Gi¸ vèn
+#01:017:25:Tªn 2
+#01:017:26:Gi¸ chuÈn 
+#01:017:27:Gi¸ giê vµng
+#01:017:28:Gi¸ buæi tèi
+#01:017:29: Chän h×nh ¶nh
+#01:017:30:Ch ôp h×nh
+'Cê m· hµng PF1
+#01:017:31:a.Cho phÐp söa sai
+#01:017:32:b.Mãn ngoµi menu
+#01:017:33:c.Cho phÐp b¸n sè lÎ
+#01:017:34:d.Th«ng b¸o gi¸
+#01:017:35:e.Kh«ng cho phÐp söa tªn
+#01:017:36:f.Më réng tªn mãn
+#01:017:37:g.Not used
+#01:017:38:h.TÝch lòy ®iÓm
+'Cê m· hµng PF2:Kitchen Printer
+#01:017:39:a.M¸y in bÕp  1(KP-1)
+#01:017:40:b.M¸y in Kho bia(KP-2)
+#01:017:41:c.M¸y in Pha chÕ(KP-3)
+#01:017:42:d.M¸y in bÕp  N­íng(KP-4)
+#01:017:43:e.M¸y in bÕp  5(KP-5)
+#01:017:44:f.M¸y in bÕp  6(KP-6)
+#01:017:45:g.M¸y in bÕp  7(KP-7)
+#01:017:46:h.M¸y in bÕp  8(KP-8)
+' Cê m· hµng PF 3(Tax)
+#01:017:47:a.ThuÕ 1
+#01:017:48:b.ThuÕ 2
+#01:017:49:c.ThuÕ 3
+#01:017:50:d.ThuÕ 4
+#01:017:51:e.Kh«ng hiÓn thÞ trªn Bill
+#01:017:52:f.Cho phÐp b¸n gi¸ 0
+#01:017:53:g.Cho phÐp b¸n gi¸ ©m
+#01:017:54:h.Mãn kh«ng ChÕ biÕn
+' Cê m· hµng PF 4
+#01:017:55:a.Not used
+#01:017:56:b.Not used
+#01:017:57:c.Not used
+#01:017:58:d.HiÓn thÞ trªn mµn h×nh
+#01:017:59:e.TÝnh doanh sè cho phôc vô
+#01:017:60:f.Not used
+#01:017:61:g.Not used
+#01:017:62:h.Not used
+' Cê m· hµng PF 5
+#01:017:63:a.Not used
+#01:017:64:b.Not used
+#01:017:65:c.Not used
+#01:017:66:d.Not used
+#01:017:67:e.Not used
+#01:017:68:f.Not used
+#01:017:69:g.Not used
+#01:017:70:h.Not used
+'GridPLU
+#01:017:71:Cê 1
+#01:017:72:Cê 2
+#01:017:73:Cê 3
+#01:017:74:Cê 4
+#01:017:75:Cê 5
+#000
+;Media Form
+#01:018:01:C¸c h×nh thøc thanh to¸n
+#01:018:02: Göi
+#01:018:03: Gióp ®ì
+#01:018:04:§ãn g
+#01:018:05:TTin ChÝnh
+#01:018:06:Cê
+#01:018:07: Tªn H.T.T.To¸n:
+#01:018:08:KÝch cì ch÷ tù ®éng to gÊp ®«i
+#01:018:09: BiÓu t­îng:
+#01:018:10:Giíi h¹n gi¸ trÞ tèi ®a:
+#01:018:11: Giíi h¹n gi¸ trÞ tèi thiÓu:
+#01:018:12:Tû gi¸ ®æi  ngo¹i tÖ:
+#01:018:13:Gi¸ trÞ c¸c phÝm tiÒn tÖ cè ®Þnh:
+#000
+;Media Form
+#01:019:01:T¹o míi m· hµng
+#01:019:02: Mét MH
+#01:019:03: D·y c¸c MH
+#01:019:04:MH b¾t ®Çu
+#01:019:05:MH kÕt thóc
+#01:019:06:T¹o thuéc tÝnh theo MH ®ang chän
+#01:019:07: §ång ý
+#01:019:08:§ãng
+#01:019:09:nhÊn SpaceBar ®Ó chän ®iÒu kiÖn bªn d­íi!
+#000
+#02:001:01:Chuçi cÇn t×m
+#02:001:02:T×m chÝnh x¸c
+#02:001:03:T×m vÒ  sau
+#02:001:04:T×m vÒ  tr­íc
+#02:001:05: §ãng
+#000
+#02:002:01:T×m kiÕm th«ng tin kh¸ch hµng
+#02:002:02:M· kh¸ch hµng
+#02:002:03:Tªn KH
+#02:002:04:Tªn c«ng ty
+#02:002:05:§Þa chØ
+#02:002:06:§iÖn tho¹i
+#02:002:07:Fax
+#02:002:08:ChiÕt khÊu
+#02:002:09:M· sè thuÕ
+#02:002:10:Sè tµi kho¶n
+#02:002:11:Ngµy sinh nhËt
+#02:002:12: Thªm míi
+#02:002:13: Söa ch÷a
+#02:002:14: Xãa trèng
+#02:002:15: §ãng
+#02:002:16:NhËp th«ng tin cÇn t×m( M· KH, Tªn KH, §Þa chØ, Sè §T, Fax, MST, Sè TK...)
+#02:002:17:C«ng nî 
+#000
+#02:003:01:NhËp sè tiÒn thanh to¸n
+#02:003:02:H×nh thøc thanh to¸n
+#02:003:03:TiÒn mÆt
+#02:003:04:ChuyÓn kho¶n
+#02:003:05:PhiÕu quµ tÆng
+#02:003:06:C«ng nî
+#02:003:07:ThÎ tÝn dông (Master Card, VISA...)
+#02:003:08:Ký bill
+#02:003:09:Lo¹i h×nh thøc
+#02:003:10:Sè tiÒn
+#02:003:11:
+#02:003:12:Tho¸t
+#000
+#02:004:01:XuÊt sang d¹ng kh¸c
+#02:004:02:§ãng
+#02:004:03:Toµn trang
+#02:004:04:HÕt trang
+#000
+#02:005:01:PhiÕu tÝnh tiÒn
+#02:005:02:Sè H§:
+#02:005:03:Bµn:
+#02:005:04:Tªn mãn
+#02:005:05:SL
+#02:005:06:§.Gi¸
+#02:005:07:T.TiÒn
+#02:005:08:Tæng céng:
+#02:005:09:Gi¶m %:
+#02:005:10:Kh¸ch tr¶:
+#02:005:11:Thèi l¹i:
+#02:005:12:B»ng ch÷:
+#02:005:13:Thu ng©n:
+#02:005:14:T¨ng/Gi¶m tiÒn mÆt
+#02:005:15:Thµnh tiÒn:
+#02:005:16:Khu vùc:
+#02:005:17:Më bµn:
+#02:005:18:§ãng bµn:
+#02:005:19:Thanh to¸n:
+#02:005:20:NV Phôc vô:
+#02:005:21:Kh¸ch hµng:
+#02:005:22:Ký tªn:.......................................................
+#02:005:23:Phßng:
+#02:005:24:PhiÕu t¹m tÝnh
+#02:005:25:Gi¶m % T¡:
+#02:005:26:Gi¶m % thøc uèng:
+#02:005:27:PhÝ phôc vô:
+#02:005:28:Gi¶m % tiÒn giê:
+#02:005:29:VAT:
+#02:005:30:(LÇn in thø:
+#02:005:31:Tæng sè mÆt hµng:
+#02:005:32:
+#000;Chuyen gia theo giê,chuyen gia theo khu vuc
+#02:006:01:ThiÕt lËp gi¸ theo giê
+#02:006:02:ThiÕt lËp gi¸ theo khu vùc
+#02:006:03:Standar Price (Gi¸ chuÈn )
+#02:006:04:Happy hour Price (Gi¸ giê vµng )
+#02:006:05:Everning Price ( Gi¸ buæi tèi )
+#02:006:06:Tõ:
+#02:006:07:§Õn:
+#02:006:08:L­u thay ®æi
+#02:006:09: §ãng
+#000;Cê hÖ thèng/SF1
+#02:007:01:a.In 2 hãa ®¬n t¹m tÝnh
+#02:007:02:b.In 2 H§ khi thanh to¸n
+#02:007:03:c.ChuyÓn gi¸ mãn theo KV
+#02:007:04:d.ChuyÓn gi¸ theo giê
+#02:007:05:e.In nhãm chÝnh trªn Bill
+#02:007:06:f.Print Ticket Order
+#02:007:07:g.TÝnh doanh sè theo giê ®ãng bµn
+#02:007:08:h.Chän m¸y khi in H§
+'Cê HÖ thèng SF2 KP
+#02:007:09:a.KP1 Existed
+#02:007:10:b.KP2 Existed
+#02:007:11:c.KP3 Existed
+#02:007:12:d.KP4 Existed
+#02:007:13:e.KP5 Existed
+#02:007:14:f.KP6 Existed
+#02:007:15:h.KP8 Existed
+' Cê hÖ thèng SF 3 Backup KP
+#02:007:17:a.KP1 Backup Receipt printer
+#02:007:18:b.KP2 Backup Receipt printer
+#02:007:19:c.KP3 Backup Receipt printer
+#02:007:20:d.KP4 Backup Receipt printer
+#02:007:21:e.KP5 Backup Receipt printer
+#02:007:22:f.KP6 Backup Receipt printer
+#02:007:23:g.KP7 Backup Receipt printer
+#02:007:24:h.KP8 Backup Receipt printer
+' Cê hÖ thèng SF4
+#02:007:25:a.HiÓn thÞ ®ång tiÒn ngo¹i tÖ song song
+#02:007:26:b.B¾t buéc nhËp nh©n viªn phôc vô khi in H§
+#02:007:27:c.§ång bé d÷ liÖu tù ®éng
+#02:007:28:d.B¾t buéc nhËp sè kh¸ch
+#02:007:29:e.HiÓn thÞ gi¸ mãn trªn phiÕu Order
+#02:007:30:f.HiÓn thÞ gi¸ trªn menu
+#02:007:31:g.Céng sè l­îng tù ®éng.
+#02:007:32:h.Not used
+' Cê hÖ thèng SF5
+#02:007:33:a.Sö dông m¸y in Order
+#02:007:34:b.Gi¶m gi¸ tù ®éng
+#02:007:35:c.TÝch lòy ®iÓm kh¸ch hµng
+#02:007:36:d.In phiÕu Order 2 Liªn
+#02:007:37:e.Gi¶m % ®å ¨n thøc uèng tù ®éng
+#02:007:38:f.In phiÕu khi thanh to¸n
+#02:007:39:g.In phiÕu chuyÓn bµn
+#02:007:40:h.Cho phÐp chØnh söa khi ®· in H§
+' Cê hÖ thèng SF6 (Receipt Options)
+#02:007:41:a.Sö dông logo nhá
+#02:007:42:b.Sö dông logo lín
+#02:007:43:c.Sö dông logo ch÷
+#02:007:44:d.Kh«ng sö dông logo
+#02:007:45:e.Kh«ng hiÓn thÞ sè bµn
+#02:007:46:f.Kh«ng hiÓn thÞ sè H§
+#02:007:47:g.Kh«ng hiÓn thÞ Khu vùc
+#02:007:48:h.Kh«ng hiÓn thÞ h×nh thøc thanh to¸n
+'Co he thong SF7
+#02:007:49:a.S¾p xÕp Items theo thø tù order
+#02:007:50:b.Consolidate Item on Receipt
+#02:007:51:c.Yªu cÇu nhËp lý do khi gi¶m % (ChiÕt khÊu)
+#02:007:52:d.HiÓn thÞ mµn h×nh kh¸ch hµng
+#02:007:53:e.Sö dông m¸y in theo khu vùc
+#02:007:54:f.Më kÐt khi thanh to¸n
+#02:007:55:g.Not used
+#02:007:56:h.Not used
+#000
+#02:008:01:§· ®­îc chuyÓn !
+#02:008:02: Tho¸t
+#000
+#02:009:01:NHAÂN VIEÂN
+#02:009:02:CAÁU HÌNH HEÄ THOÁNG
+#02:009:03:CAØI ÑAËT DANH MUÏC
+#02:009:04:BAÙO CAÙO
+#02:009:05:Baùo caùo kho
+#02:009:06:Baùo caùo &baùn haøng
+#02:009:07:Baùo caùo thu chi
+#02:009:08:Baùo caùo Laõi loã 
+#02:009:09:Baùo caùo theo khaùch haøng
+#02:009:10:Baùo caùo toàn kho
+#02:009:11:Baùo caùo nhaäp kho
+#02:009:12:Baùo caùo xuaát kho
+#02:009:13:Baùo caùo xuaát nhaäp toàn kho
+#02:009:14:Baûn keâ caùc loaïi
+#02:009:15:Baùo caùo toång hôïp
+#02:009:16:Baùo caùo theo nhoùm
+#02:009:17:Baùo caùo chi tieát
+#02:009:18:Baùo caùo toång HÑ
+#02:009:19:Baùo caùo toång baøn
+#02:009:20:Baùo caùo baøn chöa thu
+#02:009:21:Baùo caùo doang thu theo giôø
+#02:009:22:Baùo caùo ca
+#02:009:23:Baùo caùo thu tieàn
+#02:009:24:Baùo caùo chi tieàn
+#02:009:25:Toàn quyõ
+#02:009:26:Baùo caùo laõi loã
+#02:009:27:Baûn keâ ñònh möùc nguyeân phuï lieäu
+#02:009:28:Phaân tích kinh doang
+#02:009:29:Baùo caùo coâng nôï khaùch haøng
+#02:009:30:Baùo caùo chi tieát theo töøng khaùch haøng
+#02:009:31:Thoâng soá heä thoáng
+#02:009:32:Phieáu thu
+#02:009:33:Phieáu chi
+#02:009:34:Nhaäp kho
+#02:009:35:Xuaát kho
+#02:009:36:Ñònh möùc nguyeân lieäu
+#02:009:37:Tyû leä chieát khaáu ñoà aên thöùc uoáng
+#02:009:38:Caøi ñaët maùy in
+#02:009:39:Tyû leä thueá
+#02:009:40:Toång hôïp thu chi
+#02:009:41:Chính saùch giaù baùn
+#02:009:42:Phieáu quaø taëng
+#02:009:43:Danh muïc nhoùm chính
+#02:009:44:Danh muïc nhoùm haøng
+#02:009:45:Danh muïc haøng hoùa
+#02:009:46:Danh muïc nguyeân phuï lieäu
+#02:009:47:Danh muïc khaùch haøng
+#02:009:48:Danh muïc nhaø cung caáp
+#02:009:49:Danh muïc khoaûn thu
+#02:009:50:Danh muïc khoaûn chi
+#02:009:51:Danh muïc nhaäp xuaát
+#02:009:52:Thoâng tin ñaàu cuoái HÑ
+#02:009:53:Danh saùch ngoaïi teä
+#02:009:54:Caøi ñaët hieån thò
+#02:009:55:Danh saùch nhaân vieân thu ngaân
+#02:009:56:Thay ñoåi maät khaåu
+#02:009:57:Thay ñoåi maõ soá
+#02:009:58: BC huûy moùn, huûy bill sau t.toaùn
+#02:009:59:Hoaøn taát
+#02:009:60:BC moùn bò xoùa
+'Läc theo b¸n hµng
+#02:009:61:Taát caû
+#02:009:62:Theo quaày - theo cuïm NH
+#02:009:63:Khu vöïc
+#02:009:64:Maõ haøng
+#02:009:65:Teân haøng
+#02:009:66:Soá löôïng
+#02:009:67:Soá tieàn
+#02:009:68:Khoaûn thu chi
+#02:009:69:Khaùch haøng -NCC
+#02:009:70:Ngaøy Thu Chi
+#02:009:71:Khaùch haøng - NCC
+#02:009:72:Khoaûn thu chi
+#02:009:73:Soá tieàn
+#02:009:74:QUAÛN LYÙ KHO
+#02:009:75:Thoâng tin chæ daãn beáp
+#02:009:76:Tính toàn kho
+#02:009:77:Khoùa soå
+#02:009:78:Mëôû khoùa soå
+#02:009:79:Söûa teân maùy in
+#02:009:80:Caøi ñaët Khu vöïc
+#02:009:81:Danh muïc kho
+#02:009:82:Quaày
+#02:009:83:Khu vöïc
+#02:009:84:Maõ haøng
+#02:009:85:Nhoùm chính
+#02:009:86:Nhoùm haøng
+#02:009:87:Baùo caùo baùn haøng khoå 80mm
+#02:009:88:Baûn keâ phieáu order
+#02:009:89:THU CHI
+#02:009:90:TEÂN KHU VÖÏC - MAÙY IN
+#02:009:91:Baûn keâ toång hôïp
+#02:009:92:Baûn keâ khoå 80mm
+#02:009:93:Baùo caùo chi tieát cho NVPV
+#02:009:94:Daùnh saùch nhaân vieân Thu ngaân
+#02:009:95:Thay ñoåi maät khaåu
+#02:009:96:Thay ñoåi maõ soá
+#02:009:97:Phaân quyeàn
+#02:009:98:Boä phaän
+#02:009:99:Danh saùch NV Phuïc vuï
+#02:009:100:Ca laøm vieäc
+#02:009:101:Baûng coâng vieäc
+#02:009:102:Baûng möùc löông
+#02:009:104:Danh saùch HÑ ñaõ thanh toaùn
+#02:009:105:Phaân chia NVTN theo KV
+#02:009:106:Caøi ñaët giao dieän
+#02:009:107:Nhaân Vieân
+#02:009:108:Nhoùm chính
+#02:009:109:Keát noái maùy con
+#02:009:110:Keát xuaát HÑ VAT
+#02:009:111:BC Doanh soá theo quaày
+#000
+#02:010:01:Toaøn trang
+#02:010:02:HÕt trang
+#02:010:03: XuÊt sang d¹ng kh¸c
+#02:010:04: §ãng
+#000
+#02:011:01:Thªm mãn míi
+#02:011:02:NhÊn PhÝm Space ®Ó chän ®iÒu kiÖn bªn d­íi
+#02:011:03:T¹o míi danh s¸ch hµng
+#02:011:04:Mét m· m· hµng
+#02:011:05:D·y c¸c mÆt hµng
+#02:011:06:M· hµng b¾t ®Çu:
+#02:011:07:M· hµng kÕt thóc:
+#02:011:08:T¹o míi mÆc ®Þnh theo m· hµng ®· chän
+#02:011:09: Thªm
+#02:011:10: Gióp ®ì
+#02:011:11:Th o¸t
+#02:011:12:Hoµn tÊt
+#000
+#02:012:01:Xãa thùc ®¬n
+#02:012:02:1 MÆt hµng
+#02:012:03:D·y c¸c mÆt hµng
+#02:012:04:MÆt hµng b¾t ®Çu
+#02:012:05:MÆt hµng kÕt thóc
+#02:012:06: Xãa
+#02:012:07: §ãng
+#000
+;List User
+#02:013:01:Danh s¸ch nh©n viªn thu ng©n
+#02:013:02:Tªn ®¨ng nhËp
+#02:013:03:CÊp ®é
+#02:013:04: Thªm
+#02:013:05: Xãa
+#02:013:06: MËt khÈu
+#02:013:07:Th o¸t
+#02:013:08:M· sè ®¨ng nhËp
+;User
+#02:013:11:Thªm ng­êi dïng
+#02:013:12: Tªn ®¨ng nhËp:
+#02:013:13: Ph©n cÊp qu¶n lý
+#02:013:14: MËt khÈu:
+#02:013:15: NhËp l¹i mËt khÈu:
+#02:013:16:§ån g ý
+#02:013:17:Th o¸t
+
+#000
+;CHANGEPASSWORD Form
+#02:014:01:§æi mËt khÈu
+#02:014:02:MËt khÈu  cò:
+#02:014:03:MËt khÈu  míi:
+#02:014:04:X¸c nhËn mËt khÈu míi:
+#02:014:05:§ång  ý
+#02:014:06: Hñy bá
+#000
+#02:015:01:M· sè ®¨ng nhËp:
+#02:015:02:NhËp l¹i m· sè ®¨ng nhËp:
+#02:015:03:Tªn ng­êi dïng:
+#02:015:04:CÊp ®é User:
+#02:015:05:L­u ý: CÊp ®é User 1 lµ cÊp cao nhÊt ®­îc sö dông mäi tÝnh n¨ng cña phÇn mÒm, kh«ng ph©n quyÒn.
+#02:015:06:§ång  ý
+#02:015:07: Hñy bá
+#02:015:08: KiÓm tra
+#02:015:09:Thªm míi nh©n viªn thu ng©n
+#000
+#02:016:01:C¸c lo¹i tiÒn tÖ
+#02:016:02:Tû gi¸
+#02:016:03:Cê ®iÒu khiÓn
+#02:016:04:Tªn tiÒn tÖ
+#02:016:05:BiÓu t­îng
+#02:016:06:Tû gi¸ ngo¹i tÖ quy ®æi
+#02:016:07: L­u
+#02:016:08: Gióp ®ì
+#02:016:09:§ãng
+#02:016:10:Sö dông mÆc ®Þnh
+#02:016:11:TiÒn tÖ song song (SF- 4 a=1)
+#02:016:12:Not used
+#02:016:13:Not used
+#02:016:14:Not used
+#02:016:15:Not used
+#02:016:16:Not used
+#02:016:17:Not used
+#000
+#02:017:01:Chøng tõ nhËp kho
+#02:017:02:Sè Chøng tõ
+#02:017:03:Ngµy CT
+#02:017:04:Sè CT gèc
+#02:017:05:Ngµy §H
+#02:017:06:Ng­êi nhËp
+#02:017:07:Ng­êi giao
+#02:017:08:§¬n vÞ xuÊt(*)
+#02:017:09:§Þa chØ
+#02:017:10:§iÖn tho¹i
+#02:017:11:Fax:
+#02:017:12:MST:
+#02:017:13:Chi tiÕt chøng tõ nhËp kho
+#02:017:14: Thªm Chøng tõ
+#02:017:15: CËp nhËt CT
+#02:017:16: Xãa CT
+#02:017:17:Chi tiÕt
+#02:017:18:§ãng
+#02:017:19:CK:
+#02:017:20:Lý do NhËp:(*)
+#02:017:21:Sè chøng tõ nµy ®· tån t¹i trong danh s¸ch c¸c chøng tõ nhËp kho råi!
+#02:017:22:Sè chøng tõ kh«ng ®­îc phÐp rçng!
+#02:017:23:B¹n ph¶i chän nhµ cung cÊp
+#02:017:24:B¹n ph¶i chän lo¹i nhËp xuÊt!
+#02:017:25:Sè chøng tõ kh«ng ®­îc phÐp rçng!
+#02:017:26:B¹n ph¶i chän lo¹i kho!
+#02:017:27:Chi tiÕt nhËp kho
+#02:017:28:Ngµy CT:
+#02:017:29:M· hµng
+#02:017:30:Tªn hµng
+#02:017:31:Sè l­îng
+#02:017:32:§VT
+#02:017:33:§¬n gi¸
+#02:017:34:Thµnh tiÒn
+#02:017:35:Chi tiÕt
+#02:017:36:Thªm C.tiÕt
+#02:017:37:CËp nhËt
+#02:017:38:Xãa chi tiÕt
+#02:017:39:Hñy bá
+#02:017:40:In chøng tõ
+#02:017:41:T×m  kiÕm
+#02:017:42: Gióp ®ì
+#02:017:43:§ãng
+#02:017:44:Sè CT:
+#000
+#02:018:19:Kh«ng cã nguyªn liÖu nµo ®­îc t¹o ®Ó nhËp kho !
+#02:018:20:Kh«ng t×m thÊy nguyªn liÖu nµo ®Ó nhËp kho !
+#02:018:21:Nguyªn liÖu nµy ®· tån t¹i trong chøng tõ nµy råi, B¹n cã muèn nhËp thªm kh«ng?
+#02:018:22:Sè l­îng nhËp ph¶i lín h¬n 0
+#02:018:23:Tæng thµnh tiÒn:
+#02:018:24:PhiÕu nhËp kho
+#000
+#02:019:01:Thanh to¸n ngo¹i tÖ
+#02:019:02: Thay ®æi tû gi¸
+#02:019:03:Th o¸t
+#000
+#02:020:01:Chøng tõ XuÊt kho
+#02:020:02:Sè Chøng tõ
+#02:020:03:Ngµy CT
+#02:020:04:Sè CT gèc
+#02:020:05:Ngµy §H
+#02:020:06:Ng­êi xuÊt
+#02:020:07:Ng­êi nhËn
+#02:020:08:Kh¸ch hµng(*)
+#02:020:09:§Þa chØ
+#02:020:10:§iÖn tho¹i
+#02:020:11:Fax:
+#02:020:12:MST:
+#02:020:13:Chi tiÕt chøng tõ xuÊt kho
+#02:020:14: Thªm
+#02:020:15: CËp nhËt
+#02:020:16: Xãa CT
+#02:020:17:Chi ti Õt
+#02:020:18:Th o¸t
+#02:020:19:CK:
+#02:020:20:Lý do xuÊt:(*)
+#02:020:21:Sè chøng tõ nµy ®· tån t¹i trong danh s¸ch c¸c chøng tõ nhËp kho råi!
+#02:020:22:Sè chøng tõ kh«ng ®­îc phÐp rçng!
+#02:020:23:B¹n ph¶i chän nhµ cung cÊp
+#02:020:24:B¹n ph¶i chän lo¹i nhËp xuÊt!
+#02:020:25:Sè chøng tõ kh«ng ®­îc phÐp rçng!
+#000
+
+#02:021:01:Chi tiÕt XuÊt kho
+#02:021:02:Ngµy CT:
+#02:021:03:M· NL
+#02:021:04:Tªn Nguyªn liÖu
+#02:021:05:Sè l­îng
+#02:021:06:§VT
+#02:021:07:§¬n gi¸
+#02:021:08:Thµnh tiÒn
+#02:021:09:Chi tiÕt
+#02:021:10: Thªm
+#02:021:11: CËp nhËt
+#02:021:12: Xãa
+#02:021:13: Hñy bá
+#02:021:14: In chøng tõ
+#02:021:15:T×m  kiÕm
+#02:021:16: Gióp ®ì
+#02:021:17:Th o¸t
+#02:021:18:Sè CT:
+#02:021:19:Kh«ng cã nguyªn liÖu nµo ®­îc t¹o ®Ó xuÊt kho !
+#02:021:20:Kh«ng t×m thÊy nguyªn liÖu nµo ®Ó xuÊt kho !
+#02:021:21:Nguyªn liÖu nµy ®· tån t¹i trong chøng tõ nµy råi, B¹n cã muèn xuÊt tiÕp kh«ng?
+#02:021:22:Sè l­îng xuÊt ph¶i lín h¬n 0
+#02:021:23:Tæng thµnh tiÒn:
+#02:021:24:PhiÕu XuÊt kho
+#000
+#03:001:01:Danh s¸ch phßng ban
+#03:001:02:M· PB
+#03:001:03:Tªn phßng ban
+#03:001:04:Thªm
+#03:001:05:CËp nhËt
+#03:001:06:Xãa
+#03:001:07:Söa
+#03:001:08:§ãng
+#03:001:09:M· phßng ban nµy ®· tån t¹i
+#03:001:10:Gióp ®ì
+#000
+#03:002:01:B¶ng l­¬ng
+#03:002:02:M·
+#03:002:03:Tªn b¶ng l­¬ng
+#03:002:04:Thªm
+#03:002:05:CËp nhËt
+#03:002:06:Xãa
+#03:002:07:Söa
+#03:002:08:§ãng
+#03:002:09:M· nµy ®· tån t¹i
+#03:002:10:Gióp ®ì
+#03:002:11:Møc l­¬ng
+#000
+#03:003:01:B¶ng C«ng viÖc
+#03:003:02:M· c«ng viÖc
+#03:003:03:Tªn C«ng viÖc
+#03:003:04:Thªm
+#03:003:05:CËp nhËt
+#03:003:06:Xãa
+#03:003:07:Söa
+#03:003:08:§ãng
+#03:003:09:C«ng viÖc nµy ®· tån t¹i
+#03:003:10:Gióp ®ì
+#03:003:11:B¶ng l­¬ng
+#000
+#03:004:01:Ca lµm viÖc
+#03:004:02:M· sè
+#03:004:03:DiÔn gi¶i
+#03:004:04:Thêi gian b¾t ®Çu
+#03:004:05:Thêi gian kÕt thóc
+#03:004:06:Cho phÐp trÓ
+#03:004:07:Cho phÐp vÒ sím
+#03:004:08:M· sè nµy ®· tån t¹i, vui lßng kiÓm tra l¹i
+#03:004:09:Tæng T/Gian lµm viÖc
+#03:004:10:B¾t buéc vµo ca
+#03:004:11:B¾t buéc ra ca
+#03:004:12:phót
+#03:004:13:B¾t buéc ra ca
+#03:004:14: Thªm
+#03:004:15: CËp nhËt
+#03:004:16: Söa
+#03:004:17: Xãa
+#03:004:18:Gióp ®ì
+#03:004:19:§ãng
+#000
+#03:005:01:Danh môc nh©n viªn
+#03:005:02:Th«ng tin nh©n viªn
+#03:005:03:Th«ng tin tµi kho¶n
+#03:005:04:M· NV
+#03:005:05:M· Swip
+#03:005:06:Tªn nh©n viªn
+#03:005:07:Bé phËn
+#03:005:08:Ngµy sinh
+#03:005:09:Thuéc ca
+#03:005:10:Cßn lµm
+#03:005:11:§Þa chØ
+#03:005:12:B¶ng c«ng viÖc
+#03:005:13:§iÖn tho¹i
+#03:005:14:Email
+#03:005:15:H×nh 3x4
+#03:005:16: Thªm
+#03:005:17: CËp nhËt
+#03:005:18: Söa
+#03:005:19: Xãa
+#03:005:20:Gióp ®ì
+#03:005:21:§ãng
+#000'Dinh dang
+#03:006:01: Trî gióp
+#03:006:02:§ång  ý
+#03:006:03: Hñy bá
+#03:006:04:DÊu ph©n c¸ch thËp ph©n cho sè l­îng:
+#03:006:05:DÊu ph©n c¸ch hµng ngh×n:
+#03:006:06:Sè ch÷ sè cho mçi nhãm sè:
+#03:006:07:Sè ch÷ sè hµng thËp ph©n sè l­îng:
+#03:006:08:Sè ch÷ sè hµng thËp ph©n gi¸ trÞ:
+#03:006:09:§Þnh d¹ng
+#000
+#03:007:01: Kho¶ng thêi gian
+#03:007:02:Tõ ngµy
+#03:007:03:§Õn ngµy
+#03:007:04: Thùc thi
+#03:007:05: Söa ch÷a
+#03:007:06: Gióp ®ì
+#03:007:07:Th o¸t
+#03:007:08:Danh s¸ch hãa ®¬n
+#03:007:09:Sè H§
+#03:007:10:Ngµy
+#03:007:11:Bµn sè
+#03:007:12:Tæng Céng
+#03:007:13:Gi¶m %
+#03:007:14:Thµnh tiÒn
+#03:007:15:TiÒn mÆt
+#03:007:16:ChuyÓn kho¶n
+#03:007:17:Khu vùc
+#000 Change form
+#03:008:01:Tæng céng:
+#03:008:02:Thanh to¸n:
+#03:008:03:Thèi l¹i:
+#000Change ID
+#03:009:01:§æi m· sè vµo ca
+#03:009:02:NhËp m· sè míi:
+#03:009:03:X¸c nhËn m· sè:
+#03:009:04: §ång ý
+#03:009:05:Th o¸t
+#000Clerk Attenden form
+#03:010:01:ChÊm c«ng nh©n viªn
+#03:010:02:Vµo ca
+#03:010:03:Ra ca
+#03:010:04:Th o¸t
+#000
+#03:011:01:§¨ng nhËp chÊm c«ng nh©n viªn
+#03:011:02:NhËp m· sè:
+#03:011:03:NhËp m· Swip:
+#03:011:04: Hñy bá
+#03:011:05: Bµn phÝm
+#03:011:06: §ång ý
+#000
+#03:012:01:Mµu hiÓn thÞ
+#03:012:02: L­u/Tho¸t
+#03:012:03: Gióp ®ì
+#03:012:04:Thêi gian Thanh to¸n/ Dän dÑp
+#000
+#03:013:01:Xãa d÷ liÖu b¸n hµng
+#03:013:02:Chän kho¶ng thêi gian cÇn xãa
+#03:013:03:Tõ ngµy:
+#03:013:04:§Õn ngµy:
+#03:013:05: D÷ liÖu b¸n hµng
+#03:013:06:D÷ liÖu kho
+#03:013:07:D÷ liÖu Thu chi
+#03:013:08:Tho¸t
+#000
+#03:014:01:ThiÕt lËp s¬ ®å bµn
+#03:014:02: Thªm bµn míi
+#03:014:03: Xãa bµn
+#03:014:04:Thªm  khu vùc
+#03:014:05:X ãa khu vùc
+#03:014:06:Bµn sè
+#03:014:07:Sè ghÕ tèi ®a:
+#03:014:08: Gióp ®ì
+#03:014:09: Hoµn tÊt
+#000
+#03:015:01:Th«ng tin Bill
+#03:015:02:Th«ng tin ®Çu bill
+#03:015:03:Th«ng tin cuèi bill
+#03:015:04:Th«ng tin ®ång bé d÷ liÖu
+#03:015:05:Dßng 1:
+#03:015:06:Dßng 2:
+#03:015:07:Dßng 3:
+#03:015:08:Dßng 4:
+#03:015:09:Dßng 1:
+#03:015:10:Dßng 2:
+#03:015:11:Dßng 3:
+#03:015:12:Dßng 4:
+#03:015:13:Dßng 5:
+#03:015:14:Logo h×nh:
+#03:015:15:Mail server:
+#03:015:16:Mail m¸y tr¹m:
+#03:015:17: L­u thay ®æi
+#03:015:18: §ãng
+#03:015:19:Dßng 5:
+#000
+#03:016:01:M· sè/Swip ID:
+#03:016:02:Tµi kho¶n:
+#03:016:03:Ngµy ph¸t hµnh:
+#03:016:04:Ngµy hÕt h¹n:
+#03:016:05: Thªm
+#03:016:06: CËp nhËt
+#03:016:07: Xãa
+#03:016:08: In
+#03:016:09: §ãng
+#03:016:10:PhiÕu quµ tÆng
+#000
+#03:017:01:Tæng hîp thu chi
+#03:017:02:Thêi gian
+#03:017:03:Tõ ngµy:
+#03:017:04:§Õn ngµy:
+#03:017:05:Lo¹i
+#03:017:06:Tæng hîp thu
+#03:017:07:Tæng hîp chi
+#03:017:08:Tån quü
+#03:017:09: Thùc thi
+#03:017:10: In b¸o c¸o
+#03:017:11:Th o¸t
+#000
+#03:018:01:Lùa chän ng«n ng÷
+#03:018:02: §ång ý
+#03:018:03: Gióp ®ì
+#03:018:04: Hñy bá
+#000
+#03:019:01:CÊp quyÒn sö dông
+#03:019:02:M· ng­êi sö dông:
+#03:019:03:M· m¸y
+#03:019:04:M· sö dông
+#03:019:05: Më khãa
+#03:019:06: Gióp ®ì
+#03:019:07: §ãng
+#000
+#03:020:01:Chän thêi gian quy ®Þnh
+#03:020:02: §ång ý
+#03:020:03: §ãng
+#000
+#03:021:01:PhiÕu chi
+#03:021:02:Sè phiÕu:
+#03:021:03:Ngµy:
+#03:021:04:Néi dung phiÕu chi
+#03:021:05:Kho¶n chi:
+#03:021:06:Nhµ cung cÊp:
+#03:021:07:§Þa chØ:
+#03:021:08:Sè §T:
+#03:021:09:M· sè thuÕ:
+#03:021:10:Ng­êi nhËn tiÒn:
+#03:021:11:Bé phËn:
+#03:021:12:Ph­¬ng thøc chi:
+#03:021:13:Sè tiÒn:
+#03:021:14:DiÔn gi¶i:
+#03:021:15:B»ng ch÷:
+#03:021:16: L­u
+#03:021:17: Xem
+#03:021:18: §ãng
+#000
+#03:022:01:PhiÕu Thu
+#03:022:02:Sè phiÕu:
+#03:022:03:Ngµy:
+#03:022:04:Néi dung phiÕu Thu
+#03:022:05:Kho¶n chi:
+#03:022:06:Kh¸ch hµng:
+#03:022:07:§Þa chØ:
+#03:022:08:Sè §T:
+#03:022:09:M· sè thuÕ:
+#03:022:10:Ng­êi nép tiÒn:
+#03:022:11:Bé phËn:
+#03:022:12:Ph­¬ng thøc TT:
+#03:022:13:Sè tiÒn:
+#03:022:14:DiÔn gi¶i:
+#03:022:15:B»ng ch÷:
+#03:022:16: L­u
+#03:022:17: Xem
+#03:022:18: §ãng
+#000
+#03:023:01:PhÝm sè
+#03:023:02: Xãa
+#03:023:03: §ãng
+#03:023:04: §ång ý
+#000
+#03:024:01:M¸y in
+#03:024:02:Chän in
+#03:024:03: TÊt c¶
+#03:024:04: Trang hiÖn t¹i
+#03:024:05:Tõ trang
+#03:024:06:§Õn trang
+#03:024:07:Sè l­îng b¶n in
+#03:024:08:Sè b¶n in
+#03:024:09:ChiÒu giÊy
+#03:024:10:XÕp trang
+#03:024:11: Cµi ®Æt m¸y in
+#03:024:12: In
+#03:024:13: §ãng
+#000
+#03:025:01:Sè l­îng chuyÓn
+#03:025:02:NhËp sè l­îng chuyÓn
+#03:025:03: Xãa
+#03:025:04: §ãng
+#03:025:05: §ång ý
+#000
+#03:026:01:NhËp lý do xãa mãn ®· order
+#03:026:02: §ång ý
+#000
+#03:027:01:§Æt mËt khÈu
+#03:027:02:MËt khÈu míi
+#03:027:03:X¸c nhËn mËt khÈu míi
+#03:027:04: §ång ý
+#03:027:05: §ãng
+#000
+#03:028:01:Cµi ®Æt cê hÖ thèng
+#03:028:02: L­u thay ®æi
+#03:028:03: §ãng
+#000'Adjustment
+#03:029:01:STT
+#03:029:02:DiÔn gi¶i: 
+#03:029:03:Tû lÖ %
+#03:029:04:Th«ng tin t¨ng gi¶m
+#03:029:05: Thªm
+#03:029:06: L­u
+#03:029:07: Gióp ®ì
+#03:029:08:§ãng
+#03:029:09:Tû lÖ t¨ng gi¶m
+#000
+#03:030:01:Th«ng tin chØ dÉn bÕp
+#03:030:02:Gi¸ trÞ:
+#03:030:03: L­u
+#03:030:04: Gióp ®ì
+#03:030:05: §ãng
+#03:030:06:STT
+#03:030:07:ChÜ dÉn
+#000
+#03:031:01:Tªn m¸y in
+#03:031:02:Tªn:
+#03:031:03: L­u
+#03:031:04: Gióp ®ì
+#03:031:05: §ãng
+#03:031:06:STT
+#03:031:07:Tªn
+#03:031:08:Tªn khu vùc
+#000
+;Menu Level Shift Time, Price Level Shift Time
+#04:001:01:Thêi gian chuyÓn menu
+#04:001:02:Thêi gian chuyÓn møc gi¸
+#04:001:03: Göi
+#04:001:04:Gió p ®ì
+#04:001:05:§ãn g
+#04:001:06: TTChÝnh
+#04:001:07:Giê B§:
+#04:001:08:Giê KT:
+.....................Flex Caption
+#04:001:09:Stt.
+#04:001:10:TuÇn
+#04:001:11:Møc Thùc ®¬n
+#04:001:12:Møc Gi¸
+#04:001:13:Gi¸#
+#04:001:14:Giê B§
+#04:001:15:Giê KT
+#000
+#04:002:01:Ph©n quyÒn sö dông
+#04:002:02:Nh©n viªn
+#04:002:03:Ph©n quyÒn
+#04:002:04:§ång ý
+#04:002:05:Gióp ®ì
+#04:002:06:§ãng
+#000
+#04:003:01:Chænh söûa sô ñoà baøn
+#04:003:02:Baùn haøng
+#04:003:0201:Xoùa moùn
+#04:003:0202:Giaûm %
+#04:003:0203:Söûa giaù
+#04:003:0204:Giaûm % moùn
+#04:003:0205:Baùn giaù môû
+#04:003:0206:Söûa sai soá löôïng
+#04:003:0207:In HÑ taïm
+#04:003:0208:Chuyeån baøn
+#04:003:0209:Goäp baøn
+#04:003:0210:Taùch moùn
+#04:003:0211:Thanh toaùn
+#04:003:0212:Giaûm % thöùc aên
+#04:003:0213:Giaûm % thöùc uoáng
+#04:003:0214:Choïn moùn aên
+#04:003:0215:Söûa teân moùn
+#04:003:0216:Thoâng tin moùn
+#04:003:0217:Phuï thu TM
+#04:003:0218:Thay ñoåi soá lieäu khi ñaõ in Bill
+#04:003:0219:Tieàn maët
+#04:003:0220:Chuyeån khoaûn
+#04:003:0221:Theû tín duïng
+#04:003:0222:Coâng nôï
+#04:003:0223:Phieáu quaø taëng
+#04:003:0224:Bill kyù
+#04:003:0225:Xoùa sau khi löu
+#04:003:0226:Phí phuïc vuï
+#04:003:0227:
+#04:003:03:Chænh söûa danh muïc
+#04:003:04:Nhaân vieân
+#04:003:0401:Nhaân vieân thu ngaân
+#04:003:0402:Thay ñoåi maät khaåu
+#04:003:0403:Thay ñoåi maõ soá vaøo ca
+#04:003:0404:Phaân quyeàn
+#04:003:0405:Phoøng baøn
+#04:003:0406:Danh saùch nhaân vieân phuïc vuï
+#04:003:0407:Ca laøm vieäc
+#04:003:0408:Baûng coâng vieäc
+#04:003:0409:Baûng möùc löông
+#04:003:0410: 
+#04:003:0411:Danh saùch HÑ ñaõ thanh toaùn
+#04:003:0412:Phaân chia khu vöïc theo nhaân vieân
+#04:003:0413:Môû keùt
+#04:003:05:Caáu hình heä thoáng
+#04:003:0501:Caøi ñaët caáu hình heä thoáng
+#04:003:0502:Thoâng tin ñaàu cuoái HÑ
+#04:003:0503:Caøi ñaët hieån thò
+#04:003:0504:Caøi ñaët maùy in
+#04:003:0505:Tyû leä giaûm %
+#04:003:0506:Chính saùch giaù baùn
+#04:003:0507:Caøi ñaët giao dieän
+#04:003:0508:Tyû leä thueá
+#04:003:0509:Keát noái maùy con
+#04:003:0510:Keát xuaát HÑ VAT
+#04:003:06:Caøi ñaët danh muïc
+#04:003:0601:Danh muïc nhoùm chính
+#04:003:0602:Danh muïc nhoùm haøng
+#04:003:0603:Danh muïc haøng hoùa
+#04:003:0604:Danh muïc nguyeân lieäu
+#04:003:0605:Danh muïc khaùch haøng
+#04:003:0606:Danh muïc nhaø cung caáp
+#04:003:0607:Danh muïc khoaûn thu
+#04:003:0608:Danh muïc khoaûn chi
+#04:003:0609:Danh muïc nhaäp xuaát
+#04:003:0610:Danh muïc kho
+#04:003:0611:Danh saùch ngoaïi teä
+#04:003:0612:Phieáu quaø taëng
+#04:003:0613:Thoâng tin chuù thích cheá bieán
+#04:003:07:Baùo caùo
+#04:003:0701:Baùo caùo kho
+#04:003:070101:Baùo caùo toàn kho
+#04:003:070102:Baùo caùo nhaäp kho
+#04:003:070103:Baùo caùo xuaát kho
+#04:003:070104:Baùo caùo xuaát nhaäp toàn kho
+#04:003:070105:Baûn keâ caùc loaïi
+#04:003:07010501:Baûn keâ nhaäp
+#04:003:07010502:Baûn keâ xuaát
+#04:003:07010503:Soå chi tieát
+#04:003:070120504:Theû kho
+#04:003:0702:Baùo caùo baùn haøng
+#04:003:070201:Baùo caùo toång hôïp
+#04:003:070202:Baùo caùo nhoùm haøng
+#04:003:070203:Baùo caùo chi tieát
+#04:003:070204:Baùo caùo toång HÑ
+#04:003:070205:Baùo caùo toång baøn
+#04:003:070206:Baùo caùo ca
+#04:003:070207:Baùo caùo baøn chöa thu
+#04:003:070208:Baùo caùo moùn bò xoùa
+#04:003:070209:Baùo caùo doanh soá theo giôø
+#04:003:0703:Baûn keâ phieáu order
+#04:003:070301:Baûn keâ toång hôïp
+#04:003:0704:Baùo caùo thu chi
+#04:003:070401:Baùo caùo thu tieàn
+#04:003:070402:Baùo caùo chi tieàn
+#04:003:070403:Toàn quyõ
+#04:003:0705:Baùo caùo toång hôïp kinh doanh
+#04:003:070501:Baùo caùo laõi loã
+#04:003:070502:Baûn keâ ñònh möùc nguyeân lieäu
+#04:003:070503:Phaân tích kinh doanh
+#04:003:0706:Baùo caùo theo khaùch haøng
+#04:003:070601:Baùo caùo coâng nôï
+#04:003:070602:Baùo caùo chi tieát theo khaùch haøng
+#04:003:08:Quaûn lyù kho
+#04:003:0801:Ñònh möùc nguyeân lieäu
+#04:003:0802:Nhaäp kho
+#04:003:080201:Theâm chöùng töø NK
+#04:003:080202:Xoùa Chöùng töø NK
+#04:003:080203:Khoùa Chöùng töø NK
+#04:003:080204:Theâm chi tieát NK
+#04:003:080205:Xoùa Chi tieát NK
+#04:003:0803:Xuaát kho
+#04:003:080301:Theâm chöùng töø XK
+#04:003:080302:Xoùa Chöùng töø XK
+#04:003:080303:Khoùa Chöùng töø XK
+#04:003:080304:Theâm chi tieát XK
+#04:003:080305:Xoùa Chi tieát XK
+#04:003:0804:Tính toàn kho
+#04:003:0805:Chuyeån kho
+#04:003:0806:Khoùa soå
+#04:003:09:Quaûn lyù thu chi
+#04:003:0901:Phieáu thu
+#04:003:090101:Taïo Phieáu thu
+#04:003:090102:Xoùa Phieáu thu
+#04:003:0902:Phieáu chi
+#04:003:090201:Taïo Phieáu chi
+#04:003:090202:Xoùa Phieáu chi
+#04:003:0903:Toång hôïp thu chi
+#04:003:10:Hieäu chænh teân
+#04:003:1001:Teân khu vöïc
+#04:003:1002:Teân maùy in
+#000
+#04:004:01:Th«ng tin kho hµng
+#04:004:02:Tªn kho
+#04:004:03: L­u
+#04:004:04: Gióp ®ì
+#04:004:05: §ãng
+#04:004:06:STT
+#04:004:07:Tªn kho
+#000
+#05:001:01:B¸o c¸o tæng hîp
+#05:001:02:Nhãm hµng
+#05:001:03:Sè lÇn giao dÞch
+#05:001:04:Xãa Sau "T.TÝnh"
+#05:001:05:Xãa tr­íc "T.TÝnh"
+#05:001:06:Gi¶m %
+#05:001:07:Gi¶m % thøc ¨n
+#05:001:08:Gi¶m % thøc uèng
+#05:001:09:C«ng nî
+#05:001:10:ChuyÓn kho¶n
+#05:001:11:ThÎ tÝn dông
+#05:001:12:TiÒn mÆt
+#05:001:13:TiÒn trong kÐt
+#05:001:14:Bµn ch­a thu
+#05:001:15:B¸o c¸o nhãm hµng
+#05:001:16:B¸o c¸o tæng hãa ®¬n
+#05:001:17:Sè H§
+#05:001:18:Kh¸ch hµng
+#05:001:19:TiÒn gi¶m
+#05:001:20:Phô Thu TiÒn mÆt
+#05:001:21:Thùc thu
+#05:001:22:Sè kh¸ch
+#05:001:23:B¸o c¸o ca
+#05:001:24:Doanh sè thùc
+#05:001:25:B¸o c¸o nh÷ng mãn bÞ xãa
+#05:001:26:Khu vùc
+#05:001:27:Bµn
+#05:001:28:Giê
+#05:001:29:Lý do
+#05:001:30:Mãn ®· order
+#05:001:31:Mãn ch­a order
+#05:001:32:Giê më
+#05:001:33:Giê ®ãng
+#05:001:34:T×nh tr¹ng
+#05:001:35:Nh©n viªn
+#05:001:36:Sè tiÒn
+#05:001:37:B¸o c¸o tæng bµn
+#05:001:38:B¸o c¸o bµn ch­a thu
+#05:001:39:B¸o c¸o theo giê
+#05:001:40:Tõ ngµy:
+#05:001:41:§Õn ngµy:
+#05:001:42:B¸o c¸o chi tiÕt
+#05:001:43:STT
+#05:001:44:M· hµng
+#05:001:45:Tªn hµng
+#05:001:46:Sè l­îng
+#05:001:47:§¬n gi¸
+#05:001:48:§VT
+#05:001:49:Thµnh tiÒn
+#05:001:50:Tæng céng nhãm hµng:
+#05:001:51:Mãn ngoµi menu
+#05:001:52:% phô phÝ
+#05:001:53:% Karaoke discount
+#05:001:54:PhiÕu Thu:
+#05:001:55:PhiÕu Chi:
+#05:001:56:B»ng ch÷:
+#05:001:57:PT Bé phËn:
+#05:001:58:Ng­êi mua hµng
+#05:001:59:Ng­êi b¸n hµng
+#05:001:60:(Ký tªn)
+#05:001:61:ThuÕ VAT
+#05:001:62:Tæng céng:
+#05:001:63:PhiÕu quµ tÆng:
+#000

@@ -1,0 +1,1189 @@
+;Language Description and Font
+#99:001:01:English
+#99:001:02:.Vnarial
+#99:001:03: #$%&'£Ñ*Å-./0123456789:Ø<>?@ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜÆ abcdefghijklmnopqrstuvwxyz_€
+#000
+;Form Login
+Select Data form
+#01:001:01:Select Path Data for Application
+#01:001:02:Current Path
+#01:001:03:Open Database Existing
+#01:001:04:Create New Database Sample
+#01:001:05:&Cancel
+#01:001:06:&Continue >>
+#000
+Open File form
+#01:002:01:File Name
+#01:002:02:Folder
+#01:002:03:File Type
+#01:002:04:System Driver
+#01:002:05:&Accept
+#01:002:06:&Cancel
+#01:002:07:&LAN Network
+;Login form
+#01:003:01:Login
+#01:003:02:Please Enter Cashier ID:
+#01:003:03:Please Enter your Password:
+#01:003:04:&System
+#01:003:05:Select Data Path for Application
+#01:003:06:Language Selection
+#01:003:07:Cashier Maintenance
+#01:003:08:Departments Maintenance
+#01:003:09:Inventory Maintanance
+#01:003:10:Material List
+#01:003:11:Set Menu Link
+#01:003:12:Printer Friendly
+#01:003:13:About Information
+#01:003:14:Exit
+#01:003:15:Station:
+#01:003:16:Shutdown
+#01:003:17:Standby
+#01:003:18:Cashier ID not valid, Please try again!
+#01:003:19:Your Password is wrong, Please try again or contact Administrator !!
+#01:003:20:Main group Maintenance
+#01:003:21:Customer Maintenance
+#01:003:22:Vendor Maintenance
+#01:003:23:System Setup
+#000
+;Table Plan form
+#01:004:01:Table Plan
+#01:004:02:&Log Out
+#01:004:03:&Edit Table Plan
+#01:004:04:&Options
+#01:004:05:&Take Out
+#01:004:06:&Delivery
+#01:004:07:New Table
+#01:004:08:Location:
+#01:004:09:Synchronise Date
+#000
+;Password form
+#01:005:01:Password
+#01:005:02:Enter Password Manager
+#01:005:03:&Cancel
+#01:005:04:&Keyboard
+#01:005:05:&OK
+#000
+#01:006:01:Select Default Printer
+#01:006:02:Receipt
+#01:006:03:Report
+#01:006:04:Barcode
+#01:006:05:Save / Exit
+#01:006:06:&Help
+#01:006:07:Select Friendly Printer
+#01:006:08:Select local Window Printer
+#000
+;Order form
+#01:007:01:Bill No.
+#01:007:02:Table No.
+#01:007:03:Location
+#01:007:04:Cashier
+#01:007:05:Total:
+#01:007:06:Tax:
+#01:007:07:&Quantity
+#01:007:08:&Delete
+#01:007:09:Discount
+#01:007:10:&Extras menu
+#01:007:11:&Line Discount
+#01:007:12:&Persons
+#01:007:13:&Additional fee
+#01:007:14:&Customer
+#01:007:15:&Tranfer Table
+#01:007:16:&New Balance
+#01:007:17:Payment
+#01:007:18:E&xit
+#01:007:19:Description
+#01:007:20:#
+#01:007:21:Price
+#01:007:22:Total
+#01:007:23:Order
+#01:007:24:Joint Table
+#01:007:25:&Buffer Print
+#01:007:26:Extras &Price
+#01:007:27:Edit Qty
+#01:007:28:Other Function
+#01:007:29:Maintenance
+#01:007:30:Split bill
+#01:007:31:Item Tranfer
+#01:007:32:Foreign Currency
+#01:007:33:&Close
+#01:007:34:&Current Balance
+#01:007:35:&Cash
+#01:007:36:Std_Price2
+#01:007:37:Std_Price3
+#01:007:38:Cooking Message
+#01:007:39:Adjustment 1
+#01:007:40:Adjustment 2
+#01:007:41:Adjustment 3
+#01:007:42:Adjustment 4
+#01:007:43:Menu set up
+#01:007:44:Hourly discount
+#01:007:45:Holding Rom
+#01:007:46:Money charge
+#01:007:47:Language Selection
+#000
+#01:008:01:Customer Maintenance
+#01:008:02:Customer_ID
+#01:008:03:Customer_Name
+#01:008:04:Company Name
+#01:008:05:Address
+#01:008:06:Telephone
+#01:008:07:Fax
+#01:008:08:Birthday
+#01:008:09:Taxcode
+#01:008:10:Account No.
+#01:008:11:Discount
+#01:008:12:&Addnew
+#01:008:13:&Save change
+#01:008:14:In Active 
+#01:008:15:&Delete
+#01:008:16:Help
+#01:008:17:&Close
+#01:008:18:Create New
+#01:008:19:Cancel
+#01:008:20:&Help
+#01:008:21:Create New Customer Information
+#01:008:22:Customer Information
+#01:008:23:Acc_Open
+#01:008:24:Issue _Date
+#01:008:25:Employee
+#01:008:26:Balance Limit
+#01:008:27:Current Balance
+#01:008:28:Sale History
+#01:008:29:Payment
+#01:008:30:Acc_Infor
+#01:008:31:Select Invoice to pay
+#01:008:32:Payment Method
+#01:008:33:Amount
+#01:008:34:Payment
+#01:008:35:In TBCN
+#01:008:36:&Cancel
+#01:008:37:&Customer information
+#01:008:38:F&ind
+#000
+#01:009:01:Danh môc nhËp xuÊt
+#01:009:02:M· NhËp xuÊt
+#01:009:03:DiÔn gi¶i nhËp xuÊt
+#01:009:04:&Thªm 
+#01:009:05:&Xãa
+#01:009:06:&CËp nhËt
+#01:009:07:Gióp ®ì
+#01:009:08:&§ãng
+#01:009:09:&Söa
+#01:009:10:M· Kho¶n thu
+#01:009:11:DiÔn gi¶i thu
+#01:009:12:Danh môc c¸c kho¶n thu
+#01:009:13:Danh môc c¸c kho¶n Chi
+#01:009:14:M· Chi
+#01:009:15:DiÔn gi¶i chi
+#000
+#01:010:01:Tax Rate
+#01:010:02:Tax Rate 1
+#01:010:03:Tax Rate 2
+#01:010:04:Tax Rate 3
+#01:010:05:Description
+#01:010:06:Old Value
+#01:010:07:New Value
+#01:010:08:&OK
+#01:010:09:&Cancel
+#01:010:10:Tax Rate 4
+#000'Main group
+#01:011:01:Number
+#01:011:02:MainGroup Name
+#01:011:03:Maingroup Information
+#01:011:04:&Add
+#01:011:05:&Save
+#01:011:06:Help
+#01:011:07:&Close
+#01:011:08:&Search
+#01:011:09:&Keyboard
+#000
+' Nhãm hµng
+#01:012:01:Group No :
+#01:012:02:Group Name:
+#01:012:03:Group Information
+#01:012:04:&Add
+#01:012:05:&Save
+#01:012:06:Help
+#01:012:07:&Close
+#01:012:08:Search
+#01:012:09:&Keyboard
+#01:012:09:Maingroup Link
+#01:012:10:Maingroup
+#01:012:11:Flag
+#01:012:12:a.Adjustment 1 (-)
+#01:012:13:b.Adjustment 2 (-)
+#01:012:14:c.Adjustment 3 (-)
+#01:012:15:d.Adjustment 4 (-)
+#01:012:16:e.Not used
+#01:012:17:f.Not used
+#01:012:18:g.Not used
+#01:012:19:h.Not used
+#000
+#01:013:01:Set menu link
+#01:013:02:&Add
+#01:013:03:&Delete
+#01:013:04:&Search
+#01:013:05:&Help
+#01:013:06:&Close
+#01:013:07:Material Information
+#01:013:08:Single Item:
+#01:013:09:Multi Items:
+#01:013:10:Start sequency:
+#01:013:11:End sequency:
+#01:013:12:Item number
+#01:013:13:Item Name
+#01:013:14:Unit
+#01:013:15:Minstock
+#01:013:16:Create material list
+#01:013:17:Clear Material list
+#01:013:18:Delete single Item
+#01:013:19:Delete multi Item
+#01:013:20:&Start sequency:
+#01:013:21:End sequency:
+#01:013:22:&OK
+#01:013:23:&Close
+#01:013:24:&Cost
+#000
+#01:014:01:Vendor Maintenance
+#01:014:02:Vendor number
+#01:014:03:Vendor Name
+#01:014:04:Company
+#01:014:05:Address1
+#01:014:06:Address 2
+#01:014:07:Telephone
+#01:014:08:Fax
+#01:014:09:Taxcode
+#01:014:10:Account No
+#01:014:11:Email
+#01:014:12:Website
+#01:014:13:&Add
+#01:014:14:&Delete
+#01:014:15:&Save change
+#01:014:16:&Help
+#01:014:17:&Close
+#01:014:18:Cancel
+#000
+;SetMenuLink
+#01:015:01:Set menu link
+#01:015:02:&Add Items
+#01:015:03:&Delete Items
+#01:015:04:&Help
+#01:015:05:&Close
+#01:015:06:&Pickup
+#01:015:07:&Add
+#01:015:08:Set Menu
+#01:015:09:Items:
+#01:015:10:&Content:
+...................Flex
+#01:015:11:Item Num
+#01:015:12:Item Name
+#01:015:13:Stock rate
+#01:015:14:Material Already existed in Setmenu
+#01:015:15:Material Report
+#01:015:16:Material List and SetMenu
+#01:015:17:Item code
+#01:015:18:Item Name
+#01:015:19:Unit
+#01:015:20:Stock Rate
+#01:015:21:Cost / %Cost/Sale
+#01:015:22:Totals
+#000
+;Pickup Form
+#01:016:01:Pick up
+#01:016:02:Search string
+#01:016:03:&Select
+#01:016:04:&Close
+.........Flex Caption
+#01:016:05:No
+#01:016:06:Item no
+#01:016:07:Name
+#000
+#01:017:01:Inventory Maintenance
+#01:017:02:&Add
+#01:017:03:&Save change
+#01:017:04:&Delete
+#01:017:05:S&earch
+#01:017:06:&Close
+#01:017:07:Information
+#01:017:08:Flag Items
+#01:017:09:Menu links
+#01:017:10:Items
+#01:017:11:Items Name
+#01:017:12:Group
+#01:017:13:Std Price 1
+#01:017:14:Std Price 2
+#01:017:15:Std Price 3
+#01:017:16:Happy hour 1
+#01:017:17:Happy hour 2
+#01:017:18:Happy hour 3
+#01:017:19:Everning price 1
+#01:017:20:Everning price 2
+#01:017:21:Everning price 3
+#01:017:22:Halo
+#01:017:23:Unit
+#01:017:24:Minstock
+#01:017:25:Menu link
+#01:017:26:Standar Price 
+#01:017:27:Happy hour price
+#01:017:28:Everning Price
+#01:017:29:&Select Image
+#01:017:30:Capture
+'Cê m· hµng PF1
+#01:017:31:Print on receipt
+#01:017:32:Used
+#01:017:33:Promt quantity is ordered
+#01:017:34:Promt Price is ordered
+#01:017:35:Allow Take out
+#01:017:36:Period Price
+#01:017:37:Allow Change Price Station
+#01:017:38:Display cooking construction
+'Cê m· hµng PF2:Kitchen Printer
+#01:017:39:Kitchen printer  1(KP-1)
+#01:017:40:Kitchen printer   2(KP-2)
+#01:017:41:Kitchen printer  3(KP-3)
+#01:017:42:Kitchen printer   4(KP-4)
+#01:017:43:Kitchen printer   5(KP-5)
+#01:017:44:Kitchen printer   6(KP-6)
+#01:017:45:Kitchen printer   7(KP-7)
+#01:017:46:Kitchen printer  8(KP-8)
+' Cê m· hµng PF 3(Tax)
+#01:017:47:Tax 1
+#01:017:48:Tax 2
+#01:017:49:Tax 3
+#01:017:50:Tax 4
+#01:017:51: Mix/Match
+#01:017:52:Allow zero price
+#01:017:53:Allow negatived price
+#01:017:54:Process
+' Cê m· hµng PF 4(Discount)
+#01:017:55:Discount
+#01:017:56:Open price
+#01:017:57:Is Modifier
+#01:017:58:Display on touch
+#01:017:59:Used Employee Retail
+#01:017:60:Not used
+#01:017:61:Not used
+#01:017:62:Not used
+' Cê m· hµng PF 5
+#01:017:63:Not used
+#01:017:64:Not used
+#01:017:65:Not used
+#01:017:66:Not used
+#01:017:67:Not used
+#01:017:68:Not used
+#01:017:69:Not used
+#01:017:70:Not used
+'GridPLU
+#01:017:71:Flag 1
+#01:017:72:Flag 2
+#01:017:73:Flag 3
+#01:017:74:Flag 4
+#01:017:75:Flag 5
+#000
+;Media Form
+#01:018:01:Media method
+#01:018:02:&Göi
+#01:018:03:&Gióp ®ì
+#01:018:04:§ãn&g
+#01:018:05:TTin ChÝnh
+#01:018:06:Cê
+#01:018:07:&Tªn H.T.T.To¸n:
+#01:018:08:KÝch cì ch÷ tù ®éng to gÊp ®«i
+#01:018:09:&BiÓu t­îng:
+#01:018:10:Giíi h¹n gi¸ trÞ tèi ®a:
+#01:018:11:&Giíi h¹n gi¸ trÞ tèi thiÓu:
+#01:018:12:Tû gi¸ ®æi &ngo¹i tÖ:
+#01:018:13:Gi¸ trÞ c¸c phÝm tiÒn tÖ cè ®Þnh:
+#000
+;Media Form
+#01:019:01:Create Items
+#01:019:02:&Single Item
+#01:019:03:&Multi Items
+#01:019:04:Start squency
+#01:019:05:Stop squency
+#01:019:06:T¹o thuéc tÝnh theo MH ®ang chän
+#01:019:07:&OK
+#01:019:08:&Close key®Ó to select
+#000
+#02:001:01:Search string
+#02:001:02:Match case
+#02:001:03:Find next
+#02:001:04:Find Previous
+#02:001:05:&Close
+#000
+#02:002:01:Customer file
+#02:002:02:Customer No
+#02:002:03:Customer Name
+#02:002:04:Company
+#02:002:05:Address
+#02:002:06:Phone
+#02:002:07:Fax
+#02:002:08:Discount
+#02:002:09:Tax code
+#02:002:10:Account_no
+#02:002:11:Birthday
+#02:002:12:&Add
+#02:002:13:&Edit
+#02:002:14:&Clear
+#02:002:15:&Close
+#02:002:16:You can type ( Cust_num, Cust_Name, Add, Phone, Fax, Taxcode, Account, Birthday...)
+#02:002:17:Balance 
+#000
+#02:003:01:Enter Amount Tendered
+#02:003:02:Payment Method
+#02:003:03:Cash
+#02:003:04:Check
+#02:003:05:Gifcard
+#02:003:06:On_Account
+#02:003:07:Credit card
+#02:003:08:Close
+#02:003:09:Type
+#02:003:10:Amount
+#000
+#02:004:01:Export
+#02:004:02:Close
+#02:004:03:Full page
+#02:004:04:Fix page
+#000
+#02:005:01:Bill receipt
+#02:005:02:No:
+#02:005:03:Table:
+#02:005:04:Items
+#02:005:05:Q'ty
+#02:005:06:Price
+#02:005:07:Amt
+#02:005:08:Total:
+#02:005:09:% Discount:
+#02:005:10:Tendered Amt:
+#02:005:11:Change:
+#02:005:12:In word:
+#02:005:13:Cashier:
+#02:005:14:Money charge
+#02:005:15:Cash:
+#02:005:16:Server:
+#02:005:17:Date:
+#02:005:18:Time:
+#02:005:19:Total:
+#02:005:20:Payment:
+#02:005:21:Waiter/Waitress:
+#02:005:22:Totals:
+#02:005:23:Room:
+#02:005:24:Temporary voucher
+#02:005:25:Adjustment 1
+#02:005:26:Adjustment 2
+#02:005:27:% Service Charge
+#02:005:28:Hourly Discount
+#000;Allow change price for Location, Period
+#02:006:01:Setup Period price
+#02:006:02:Setup Location Price
+#02:006:03:Standar Price
+#02:006:04:Happy hour Price
+#02:006:05:Everning Price 
+#02:006:06:From:
+#02:006:07:To:
+#02:006:08:&Save change
+#02:006:09:&Close
+#000;System Function Flag
+#02:007:01:a.Print double receipt
+#02:007:02:b.Print copy receipt when cash
+#02:007:03:c.ChuyÓn gi¸ mãn theo KV
+#02:007:04:d.ChuyÓn gi¸ theo giê
+#02:007:05:e.Group by Maingroup
+#02:007:06:f.ChuyÓn gi¸ giê karaoke theo KV
+#02:007:07:g.Price opening
+#02:007:08:h.Extras menu
+' SF2 KP
+#02:007:09:KP1 Existed
+#02:007:10:KP2 Existed
+#02:007:11:KP3 Existed
+#02:007:12:KP4 Existed
+#02:007:13:KP5 Existed
+#02:007:14:KP6 Existed
+#02:007:15:KP7 Existed
+#02:007:16:KP8 Existed
+' SF 3 Backup KP
+#02:007:17:KP1 Backup Receipt printer
+#02:007:18:KP2 Backup Receipt printer
+#02:007:19:KP3 Backup Receipt printer
+#02:007:20:KP4 Backup Receipt printer
+#02:007:21:KP5 Backup Receipt printer
+#02:007:22:KP6 Backup Receipt printer
+#02:007:23:KP7 Backup Receipt printer
+#02:007:24:KP8 Backup Receipt printer
+'SF 4
+#02:007:25:a. Display secondary media permision
+#02:007:26:b. Compulsory select Order Man
+#02:007:27:c. Backup Data
+#02:007:28:d. Compulsory Number person
+#02:007:29:e. Enable Select price for Location Auto
+#02:007:30:f.  Enable Select price Karake for Location Auto
+#02:007:31:g. Consolidate Quantity
+#02:007:32:h. Print on receipt Paper size 80mm
+'SF 5
+#02:007:33:a.Adjustment 1 (-)
+#02:007:34:b.Adjustment 2 (-)
+#02:007:35:c.Adjustment 3 (-)
+#02:007:36:d.Adjustment 4 (-)
+#02:007:37:Not used
+#02:007:38:Not used
+#02:007:39:Not used
+#02:007:40:Not used
+#000
+#02:008:01: Transfered !
+#02:008:02:&Close
+#000
+#02:009:01:Cashier
+#02:009:02:&Setup System function
+#02:009:03:Maintenance Function
+#02:009:04:&Report
+#02:009:05:Stock Report
+#02:009:06:Sale Report
+#02:009:07:Receipt - Expense Report
+#02:009:08:Sales general Report
+#02:009:09:Customer Report
+#02:009:10:Inventory Report
+#02:009:11:Store Report
+#02:009:12:Stock out Report
+#02:009:13:Move in out Report 
+#02:009:14:Manifest Report
+#02:009:15:General report
+#02:009:16:Department report
+#02:009:17:Items sale report
+#02:009:18:Bill total report
+#02:009:19:Table total report
+#02:009:20:Unpaid Table report
+#02:009:21:Hourly report
+#02:009:22:Shift report
+#02:009:23:Receipt report
+#02:009:24:Expense report
+#02:009:25:Balance report
+#02:009:26:Profit and Loss statement report
+#02:009:27:Material level List
+#02:009:28:Sales Analytic
+#02:009:29:Customer debt report
+#02:009:30:Customer sale details
+#02:009:31:System function flag
+#02:009:32:Income voucher
+#02:009:33:Expense voucher
+#02:009:34:InStock
+#02:009:35:Out Stock
+#02:009:36:Setup Material Level
+#02:009:37:Discount level
+#02:009:38:Setup friendly printer
+#02:009:39:Tax rate
+#02:009:40:Incomings and Outgoings General
+#02:009:41:Price Policy
+#02:009:42:Gift card
+#02:009:43:Main group
+#02:009:44:Departments
+#02:009:45:Inventory Maintenance
+#02:009:46:Material Maintenance
+#02:009:47:Customer Maintenance
+#02:009:48:Vendor Maintenance
+#02:009:49:Receipt M©intenance
+#02:009:50:Expense Maintenance
+#02:009:51:In- Out Maintenance
+#02:009:52:Receipt Logo
+#02:009:53:Media Maintenance
+#02:009:54:Color display
+#02:009:55:Cashier Maintenance
+#02:009:56:Change Password
+#02:009:57:Change Cashier ID
+#02:009:58:Cashier Attendance
+#02:009:59:&Done
+#02:009:60:Items Deleted
+'Läc theo b¸n hµng
+#02:009:61:Group
+#02:009:62:Location
+#02:009:63:Cashier
+#02:009:64:Items Code 
+#02:009:65:Items Name
+#02:009:66:Q.ty
+#02:009:67:Amount
+#02:009:68:Kho¶n thu chi
+#02:009:69:Kh¸ch hµng- Nhµ Cung cÊp
+#02:009:70:Ngµy thu chi
+#02:009:71:Kh¸ch hµng - Nhµ cung cÊp
+#02:009:72:Kho¶n thu chi
+#02:009:73:Sè tiÒn 
+#02:009:74:TÝnh to¸n tån kho - ChØ dÉn bÕp 
+#02:009:75:Cooking message
+#02:009:76:Caculate
+#02:009:77:Lock
+#02:009:78:Unlocked
+#02:009:79:Kitchen printer Name
+#02:009:80:Location Name
+#02:009:81:Stock List
+#02:009:82:Invoice Number
+#02:009:83:Date
+#02:009:84:Item Code
+#02:009:85:Item Name
+#02:009:86:Department
+#000
+#02:010:01:Full Page
+#02:010:02:Fix Page
+#02:010:03:&Export
+#02:010:04:&Close
+#000
+#02:011:01:AddNew
+#02:011:02:Press Space bar to select
+#02:011:03:Create new Items
+#02:011:04:Single Items
+#02:011:05:Range Items
+#02:011:06:Start Items:
+#02:011:07:End Items:
+#02:011:08:Create Items similar Items Selected 
+#02:011:09:&Add
+#02:011:10:&Help
+#02:011:11:&Close
+#02:011:12:Finish
+#000
+#02:012:01:Delete Menu
+#02:012:02:One Item
+#02:012:03:Arrange Items
+#02:012:04:Start Item Number
+#02:012:05:End Item Number
+#02:012:06:&Delete
+#02:012:07:&Exit
+#000
+;List User
+#02:013:01:Cashier List
+#02:013:02:Cashier Name
+#02:013:03:Level
+#02:013:04:&Add Cashier
+#02:013:05:&Delete
+#02:013:06:&Password
+#02:013:07:&Exit
+#02:013:08:Cashier_ID
+;User
+#02:013:11:Add new Cashier
+#02:013:12:&Cashier Name:
+#02:013:13:&Permission Level
+#02:013:14:&Password:
+#02:013:15:&Confirm Password
+#02:013:16:&OK
+#02:013:17:E&xit
+#000
+;CHANGEPASSWORD Form
+#02:014:01:Change Password
+#02:014:02:&Old Password:
+#02:014:03:&Enter New password
+#02:014:04:Confirm New Password:
+#02:014:05:&Ok
+#02:014:06:&Cancel
+#000
+#02:015:01:Cashier ID
+#02:015:02:Cashier Name:
+#02:015:03:Permission Level:
+#02:015:04:Password:
+#02:015:05:Confirm Password:
+#02:015:06:&OK
+#02:015:07:&Cancel
+#02:015:08:Add new Cashier
+#000
+#02:016:01:Media
+#02:016:02:FC Rate
+#02:016:03:Flag control
+#02:016:04:Media Name
+#02:016:05:Symbol
+#02:016:06:FC Exchange Rate
+#02:016:07:&Save
+#02:016:08:&Help
+#02:016:09:Exit
+#02:016:10:Use Default
+#02:016:11:Used simultaneous with LC (SF- 4 a=1)
+#02:016:12:Not used
+#02:016:13:Not used
+#02:016:14:Not used
+#02:016:15:Not used
+#02:016:16:Not used
+#02:016:17:Not used
+#000
+#02:017:01:Store Document
+#02:017:02:Document_Num
+#02:017:03:Date
+#02:017:04:Org_Document
+#02:017:05:Order Date
+#02:017:06:Receiver Name
+#02:017:07:Deliver Name
+#02:017:08:Vendor Number
+#02:017:09:Address
+#02:017:10:Phone
+#02:017:11:Fax:
+#02:017:12:Tax ID:
+#02:017:13:Store Detail 
+#02:017:14:&Add new
+#02:017:15:&Update
+#02:017:16:&Delete Doc
+#02:017:17:De&tails 
+#02:017:18:&Exit
+#02:017:19:Discount:
+#02:017:20:In Type:
+#02:017:21:The Document Number Already exist!
+#02:017:22:Doc_Number DisAllow content null Values
+#02:017:23:You must select Vendor number by click Vendor combo
+#02:017:24:You must select InOut Type!
+#02:017:25:Doc_Number DisAllow content null Values
+#000
+#02:018:01:Details Store
+#02:018:02:Date_Doc:
+#02:018:03:Item Number
+#02:018:04:Item Name
+#02:018:05:Quantity
+#02:018:06:Unit
+#02:018:07:Price
+#02:018:08:Amount
+#02:018:09:Details
+#02:018:10:&Add
+#02:018:11:&Update
+#02:018:12:&Delete
+#02:018:13:&Cancel
+#02:018:14:&Preview
+#02:018:15:&Find
+#02:018:16:&Help
+#02:018:17:&Exit
+#02:018:18:Document_Num:
+#02:018:19:No Material in Inventory !
+#02:018:20:Material not found !
+#02:018:21:Nguyªn liÖu nµy ®· tån t¹i trong chøng tõ nµy råi, B¹n cã muèn nhËp thªm kh«ng?
+#02:018:22:Quantity must > 0
+#02:018:23:Total Amount:
+#02:018:24:Inventory In
+#000
+#02:019:01:Media Others
+#02:019:02:&Change currency Rate
+#02:019:03:C&lose
+#000
+#02:020:01:Inventory out Document
+#02:020:02:Doc_No.
+#02:020:03:Doc_date
+#02:020:04:Org_Doc
+#02:020:05:Order Date
+#02:020:06:Ng­êi xuÊt
+#02:020:07:Receiver Name
+#02:020:08:Customer
+#02:020:09:Address
+#02:020:10:Tel:
+#02:020:11:Fax:
+#02:020:12:Tax code:
+#02:020:13:Inventory Out Detail
+#02:020:14:&Add
+#02:020:15:&Save change
+#02:020:16:&Delete Doc
+#02:020:17:Details
+#02:020:18:Close
+#02:020:19:Discount:
+#02:020:20:Reason:
+#02:020:21:Sè chøng tõ nµy ®· tån t¹i trong danh s¸ch c¸c chøng tõ nhËp kho råi!
+#02:020:22:Sè chøng tõ kh«ng ®­îc phÐp rçng!
+#02:020:23:B¹n ph¶i chän nhµ cung cÊp
+#02:020:24:B¹n ph¶i chän lo¹i nhËp xuÊt!
+#02:020:25:Sè chøng tõ kh«ng ®­îc phÐp rçng!
+#000
+
+#02:021:01:Chi tiÕt XuÊt kho
+#02:021:02:Ngµy CT:
+#02:021:03:M· NL
+#02:021:04:Tªn Nguyªn liÖu
+#02:021:05:Sè l­îng
+#02:021:06:§VT
+#02:021:07:§¬n gi¸
+#02:021:08:Thµnh tiÒn
+#02:021:09:Chi tiÕt
+#02:021:10:&Thªm
+#02:021:11:&CËp nhËt
+#02:021:12:&Xãa
+#02:021:13:&Hñy bá
+#02:021:14:&In chøng tõ
+#02:021:15:T×m &kiÕm
+#02:021:16:&Gióp ®ì
+#02:021:17:Th&o¸t
+#02:021:18:Sè CT:
+#02:021:19:Kh«ng cã nguyªn liÖu nµo ®­îc t¹o ®Ó xuÊt kho !
+#02:021:20:Kh«ng t×m thÊy nguyªn liÖu nµo ®Ó xuÊt kho !
+#02:021:21:Nguyªn liÖu nµy ®· tån t¹i trong chøng tõ nµy råi, B¹n cã muèn xuÊt tiÕp kh«ng?
+#02:021:22:Sè l­îng xuÊt ph¶i lín h¬n 0
+#02:021:23:Tæng thµnh tiÒn:
+#02:021:24:PhiÕu XuÊt kho
+#000
+#03:001:01:Danh s¸ch phßng ban
+#03:001:02:M· PB
+#03:001:03:Tªn phßng ban
+#03:001:04:Thªm
+#03:001:05:CËp nhËt
+#03:001:06:Xãa
+#03:001:07:Söa
+#03:001:08:§ãng
+#03:001:09:M· phßng ban nµy ®· tån t¹i
+#03:001:10:Gióp ®ì
+#000
+#03:002:01:B¶ng l­¬ng
+#03:002:02:M·
+#03:002:03:Tªn b¶ng l­¬ng
+#03:002:04:Thªm
+#03:002:05:CËp nhËt
+#03:002:06:Xãa
+#03:002:07:Söa
+#03:002:08:§ãng
+#03:002:09:M· nµy ®· tån t¹i
+#03:002:10:Gióp ®ì
+#03:002:11:Møc l­¬ng
+#000
+#03:003:01:B¶ng C«ng viÖc
+#03:003:02:M· c«ng viÖc
+#03:003:03:Tªn C«ng viÖc
+#03:003:04:Thªm
+#03:003:05:CËp nhËt
+#03:003:06:Xãa
+#03:003:07:Söa
+#03:003:08:§ãng
+#03:003:09:C«ng viÖc nµy ®· tån t¹i
+#03:003:10:Gióp ®ì
+#03:003:11:B¶ng l­¬ng
+#000
+#03:004:01:Ca lµm viÖc
+#03:004:02:M· sè
+#03:004:03:DiÔn gi¶i
+#03:004:04:Thêi gian b¾t ®Çu
+#03:004:05:Thêi gian kÕt thóc
+#03:004:06:Cho phÐp trÓ
+#03:004:07:Cho phÐp vÒ sím
+#03:004:08:M· sè nµy ®· tån t¹i, vui lßng kiÓm tra l¹i
+#03:004:09:Tæng T/Gian lµm viÖc
+#03:004:10:B¾t buéc vµo ca
+#03:004:11:B¾t buéc ra ca
+#03:004:12:phót
+#03:004:13:B¾t buéc ra ca
+#03:004:14:&Thªm
+#03:004:15:&CËp nhËt
+#03:004:16:&Söa
+#03:004:17:&Xãa
+#03:004:18:Gióp ®ì
+#03:004:19:§ãng
+#000
+#03:005:01:Danh môc nh©n viªn
+#03:005:02:Th«ng tin nh©n viªn
+#03:005:03:Th«ng tin tµi kho¶n
+#03:005:04:M· NV
+#03:005:05:M· Swip
+#03:005:06:Tªn nh©n viªn
+#03:005:07:Bé phËn
+#03:005:08:Ngµy sinh
+#03:005:09:Thuéc ca
+#03:005:10:Cßn lµm
+#03:005:11:§Þa chØ
+#03:005:12:B¶ng c«ng viÖc
+#03:005:13:§iÖn tho¹i
+#03:005:14:Email
+#03:005:15:H×nh 3x4
+#03:005:16:&Thªm
+#03:005:17:&CËp nhËt
+#03:005:18:&Söa
+#03:005:19:&Xãa
+#03:005:20:Gióp ®ì
+#03:005:21:§ãng
+#000
+#03:006:01:&Trî gióp
+#03:006:02:§ång &ý
+#03:006:03:&Hñy bá
+#03:006:04:DÊu ph©n c¸ch thËp ph©n cho sè l­îng:
+#03:006:05:DÊu ph©n c¸ch hµng ngh×n:
+#03:006:06:Sè ch÷ sè cho mçi nhãm sè:
+#03:006:07:Sè ch÷ sè hµng thËp ph©n sè l­îng:
+#03:006:08:Sè ch÷ sè hµng thËp ph©n gi¸ trÞ:
+#03:006:09:§Þnh d¹ng
+#000'Bill List
+#03:007:01:&Since
+#03:007:02:From date:
+#03:007:03:To date:
+#03:007:04:&Done
+#03:007:05:&Edit
+#03:007:06:&Help
+#03:007:07:E&xit
+#03:007:08:Invoice List
+#000Change form
+#03:008:01:Totals:
+#03:008:02:Tender_Amt:
+#03:008:03:Change:
+#000Change ID
+#03:009:01:§æi m· sè vµo ca
+#03:009:02:NhËp m· sè míi:
+#03:009:03:X¸c nhËn m· sè:
+#03:009:04:&§ång ý
+#03:009:05:Th&o¸t
+#000
+#03:011:01:§¨ng nhËp chÊm c«ng nh©n viªn
+#03:011:02:NhËp m· sè:
+#03:011:03:NhËp mËt khÈu
+#03:011:04:&Hñy bá
+#03:011:05:&Bµn phÝm
+#03:011:06:&§ång ý
+#000
+#03:012:01:Mµu hiÓn thÞ
+#03:012:02:&L­u/Tho¸t
+#03:012:03:&Gióp ®ì
+#03:012:04:Thêi gian Thanh to¸n/ Dän dÑp
+#000
+#03:013:01:Sale Clear Memory
+#03:013:02:Delete sale Time
+#03:013:03:From date:
+#03:013:04:To date:
+#03:013:05:&Ok
+#03:013:06:Canc&el
+#000
+#03:014:01:Edit table Plan
+#03:014:02:&Add new Table
+#03:014:03:&Delete Table
+#03:014:04:Add new Location
+#03:014:05:Delete Location
+#03:014:06:Table No.
+#03:014:07:Seat Number:
+#03:014:08:&Help
+#03:014:09:&Done
+#000
+#03:015:01:Receipt Information
+#03:015:02:Receipt Header 
+#03:015:03:Receipt footer
+#03:015:04:Synchronise with host
+#03:015:05:Line 1:
+#03:015:06:Line 2:
+#03:015:07:Line 3:
+#03:015:08:Line 4:
+#03:015:09:Line 5:
+#03:015:10:Line 6:
+#03:015:11:Line 7:
+#03:015:12:Line 8:
+#03:015:13:Line 9:
+#03:015:14:Logo image:
+#03:015:15:Mail server:
+#03:015:16:Mail client:
+#03:015:17:&Save change
+#03:015:18:&Close
+#000
+#03:016:01:M· sè/Swip ID:
+#03:016:02:Tµi kho¶n:
+#03:016:03:Ngµy ph¸t hµnh:
+#03:016:04:Ngµy hÕt h¹n:
+#03:016:05:&Thªm
+#03:016:06:&CËp nhËt
+#03:016:07:&Xãa
+#03:016:08:&Gióp ®ì
+#03:016:09:&§ãng
+#03:016:10:PhiÕu quµ tÆng
+#000
+#03:017:01:Tæng hîp thu chi
+#03:017:02:Thêi gian
+#03:017:03:Tõ ngµy:
+#03:017:04:§Õn ngµy:
+#03:017:05:Lo¹i
+#03:017:06:Tæng hîp thu
+#03:017:07:Tæng hîp chi
+#03:017:08:Tån quü
+#03:017:09:&Thùc thi
+#03:017:10:&In b¸o c¸o
+#03:017:11:Th&o¸t
+#000
+#03:018:01:Language selection
+#03:018:02:&OK
+#03:018:03:&Help
+#03:018:04:&Cancel
+#000
+#03:019:01:CÊp quyÒn sö dông
+#03:019:02:M· ng­êi sö dông:
+#03:019:03:M· m¸y
+#03:019:04:M· sö dông
+#03:019:05:&Më khãa
+#03:019:06:&Gióp ®ì
+#03:019:07:&Tho¸t
+#000
+#03:021:01:PhiÕu chi
+#03:021:02:Sè phiÕu:
+#03:021:03:Ngµy:
+#03:021:04:Néi dung phiÕu chi
+#03:021:05:Kho¶n chi:
+#03:021:06:Nhµ cung cÊp:
+#03:021:07:§Þa chØ:
+#03:021:08:Sè §T:
+#03:021:09:M· sè thuÕ:
+#03:021:10:Ng­êi nhËn tiÒn:
+#03:021:11:Bé phËn:
+#03:021:12:Ph­¬ng thøc chi:
+#03:021:13:Sè tiÒn:
+#03:021:14:DiÔn gi¶i:
+#03:021:15:B»ng ch÷:
+#03:021:16:&L­u
+#03:021:17:&Xem
+#03:021:18:&Tho¸t
+#000
+#03:022:01:PhiÕu Thu
+#03:022:02:Sè phiÕu:
+#03:022:03:Ngµy:
+#03:022:04:Néi dung phiÕu Thu
+#03:022:05:Kho¶n chi:
+#03:022:06:Kh¸ch hµng:
+#03:022:07:§Þa chØ:
+#03:022:08:Sè §T:
+#03:022:09:M· sè thuÕ:
+#03:022:10:Ng­êi nép tiÒn:
+#03:022:11:Bé phËn:
+#03:022:12:Ph­¬ng thøc TT:
+#03:022:13:Sè tiÒn:
+#03:022:14:DiÔn gi¶i:
+#03:022:15:B»ng ch÷:
+#03:022:16:&L­u
+#03:022:17:&Xem
+#03:022:18:&Tho¸t
+#000
+#03:023:01:PhÝm sè
+#03:023:02:&Xãa
+#03:023:03:&Tho¸t
+#03:023:04:&§ång ý
+#000
+#03:024:01:Printer
+#03:024:02:Printer Selection
+#03:024:03:&All
+#03:024:04:&Current page
+#03:024:05:Pages
+#03:024:06:To Page
+#03:024:07:Number of copies
+#03:024:08:Paper per sheet:
+#03:024:09:Orientation
+#03:024:10:Collate
+#03:024:11:&Properties
+#03:024:12:&Print
+#03:024:13:&Close
+#000
+#03:025:01:Q.ty tranfer
+#03:025:02:Enter Q.ty
+#03:025:03:&Clear
+#03:025:04:&Close
+#03:025:05:&OK
+#000
+#03:026:01:Enter reason delete:
+#03:026:02:&OK
+#000
+#03:027:01:§Æt mËt khÈu
+#03:027:02:MËt khÈu míi
+#03:027:03:X¸c nhËn mËt khÈu míi
+#03:027:04:&§ång ý
+#03:027:05:&Tho¸t
+#000
+#03:028:01:System flag
+#03:028:02:&Save change
+#03:028:03:&Close
+#000'Adjustment
+#03:029:01:STT
+#03:029:02:Tªn 
+#03:029:03:Tû lÖ %
+#03:029:04:Th«ng tin t¨ng gi¶m
+#03:029:05:&Thªm
+#03:029:06:&L­u
+#03:029:07:&Gióp ®ì
+#03:029:08:§ãng
+#03:029:09:Tû lÖ t¨ng gi¶m
+#000
+#03:030:01:Cooking instruction
+#03:030:02:Value:
+#03:030:03:&Save
+#03:030:04:&Help
+#03:030:05:&Close
+#03:030:06:No
+#03:030:07:Instructions
+#000
+#03:031:01:Printer Name
+#03:031:02:Value:
+#03:031:03:&Save
+#03:031:04:&Help
+#03:031:05:&Close
+#03:031:06:No
+#03:031:07:Name
+#03:031:08:Location Name
+#000
+;Menu Level Shift Time, Price Level Shift Time
+#04:001:01:Thêi gian chuyÓn menu
+#04:001:02:Thêi gian chuyÓn møc gi¸
+#04:001:03:&Göi
+#04:001:04:Gió&p ®ì
+#04:001:05:§ãn&g
+#04:001:06:&TTChÝnh
+#04:001:07:Giê B§:
+#04:001:08:Giê KT:
+.....................Flex Caption
+#04:001:09:Stt.
+#04:001:10:TuÇn
+#04:001:11:Møc Thùc ®¬n
+#04:001:12:Møc Gi¸
+#04:001:13:Gi¸#
+#04:001:14:Giê B§
+#04:001:15:Giê KT
+#000
+#04:004:01:Stock Information
+#04:004:02:Stock Nam­
+#04:004:03:&Save
+#04:004:04:&Help
+#04:004:05:&Close
+#04:004:06:ID
+#04:004:07:Name
+#000
+
+#05:001:01:Gerneral Report
+#05:001:02:Department
+#05:001:03:Transactions
+#05:001:04:Deleted count
+#05:001:05:Void/Correction count
+#05:001:06:% Discount
+#05:001:07:Adjustment 1
+#05:001:08:Adjustment 2
+#05:001:09:Account Balance
+#05:001:10:Check
+#05:001:11:Credit card
+#05:001:12:Cash
+#05:001:13:Cash in drawer
+#05:001:14:Item track Opening
+#05:001:15:Group Report
+#05:001:16:Bill Total Report
+#05:001:17:Invoice No.
+#05:001:18:Customer
+#05:001:19:Discount Amount
+#05:001:20:Cash
+#05:001:21:Cash in drawer
+#05:001:22:Person
+#05:001:23:Shift Report
+#05:001:24:Cash in drawer
+#05:001:25:Items Deleted Report
+#05:001:26:Location
+#05:001:27:Table
+#05:001:28:Hour
+#05:001:29:Reason
+#05:001:30:Items ordered
+#05:001:31:Items not order
+#05:001:32:Open time
+#05:001:33:Closing Time
+#05:001:34:Status
+#05:001:35:Cashier
+#05:001:36:Amount
+#05:001:37:Total Item track report
+#05:001:38:Item Track
+#05:001:39:Hourly Report
+#05:001:40:From Date:
+#05:001:41:To Date:
+#05:001:42:Items Sale Report
+#05:001:43:#
+#05:001:44:Item Code
+#05:001:45:Item Name
+#05:001:46:Q.ty
+#05:001:47:Price
+#05:001:48:Unit
+#05:001:49:Amount
+#05:001:50:Totals group
+#05:001:51:Extras menu
+#05:001:52:% Service charge
+#05:001:53:% Karaoke discount
+#05:001:54:Receipt:
+#05:001:55:Payment:
+#05:001:56:Inword:
+#05:001:57:Reporter
+#05:001:58:Chief Account
+#05:001:59:Director
+#05:001:60:(Sign, full name)
+#000
