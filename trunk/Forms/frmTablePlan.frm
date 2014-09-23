@@ -20,8 +20,8 @@ Begin VB.Form frmTablePlan
    Icon            =   "frmTablePlan.frx":0000
    KeyPreview      =   -1  'True
    LinkTopic       =   "Form1"
-   ScaleHeight     =   11055
-   ScaleWidth      =   20370
+   ScaleHeight     =   10770
+   ScaleWidth      =   11400
    StartUpPosition =   2  'CenterScreen
    WindowState     =   2  'Maximized
    Begin VB.Frame frabk 
@@ -1368,7 +1368,7 @@ On Error GoTo Handle
                             .Get_PriceRate = PRICE_RATE
                             .Get_TimeLevel = TimeLevel
                             .FormCall = 2
-                            picWait.Visible = False
+                            Picwait.Visible = False
                             probarWait.Value = 0
                             .Show vbModal
                         End With
@@ -1387,7 +1387,7 @@ On Error GoTo Handle
                     If Not .EOF Then
                         MsgBox " Bµn nµy ®· cã, vui lßng chän chøc n¨ng gép bµn !!", vbInformation
                         isclick = False
-                        picWait.Visible = False
+                        Picwait.Visible = False
                         StateCall = 1
                         Exit Sub
                     End If
@@ -1454,7 +1454,7 @@ On Error GoTo Handle
                 End If
         '        '==============================================
                 frmMessage.Show vbModal
-                picWait.Visible = False
+                Picwait.Visible = False
                 probarWait.Value = 0
                 If cnData.State = 0 Then Set cnData = Get_Connection(ServerName, DataBaseName, UserLog, DB_Password)
                     cnData.Execute "delete from Tranfer_Joint_table"
@@ -1600,7 +1600,7 @@ On Error GoTo Handle
                     .Get_Table_ID = DesTable
 '                    .Get_Discount = Discount
                     .FormCall = 2
-                    picWait.Visible = False
+                    Picwait.Visible = False
                     probarWait.Value = 0
         
                     .Show vbModal
@@ -1780,7 +1780,7 @@ On Error GoTo Handle
                     .Get_Record_Ordered = rsOrdered
 '                    .Get_Discount = Discount
                     .FormCall = 2
-                    picWait.Visible = False
+                    Picwait.Visible = False
                     probarWait.Value = 0
                     .Show vbModal
                 End With
@@ -1876,7 +1876,7 @@ On Error GoTo Handle
             
         End Select
         dblTotal_Org = 0
-        picWait.Visible = False
+        Picwait.Visible = False
         StateCall = 1
         Set rsTranfer = Nothing
 '        Discount = 0
@@ -1992,9 +1992,13 @@ i = 1: j = 1
         
             Set rsInvoice_Total = OpenCriticalTable(strTableTotal, cnData)
             If rsInvoice_Total.RecordCount > 0 Then
-                If CDbl(rsInvoice_Total.Fields("Grand_Total")) > 0 Then
+                If CDbl("0" & rsInvoice_Total.Fields("Grand_Total")) > 0 Then
                     If RTrim(rsInvoice_Total.Fields("Status")) = "P" Then
-                        .Caption = rsTable.Fields("Table_Number") & Chr(13) & Format(Abs(rsInvoice_Total.Fields("Grand_Total")), formatNum)
+                        If IsNull(rsInvoice_Total.Fields("Grand_Total")) Then
+                             .Caption = rsTable.Fields("Table_Number") & Chr(13) & Format(0, formatNum)
+                        Else
+                            .Caption = rsTable.Fields("Table_Number") & Chr(13) & Format(Abs(rsInvoice_Total.Fields("Grand_Total")), formatNum)
+                        End If
                         .BackStyle = 1
                         .BackColor = rsSubtotalColor.Fields("ReserveValue")
                         .Font.Size = rsTable.Fields("Cost_Center_Index")
@@ -2007,7 +2011,12 @@ i = 1: j = 1
                         lblTime(i).BackColor = vbRed
                     End If
                 Else
-                    .Caption = rsTable.Fields("Table_Number") & Chr(13) & Format(Abs(rsInvoice_Total.Fields("Grand_Total")), formatNum)
+                    
+                    If IsNull(rsInvoice_Total.Fields("Grand_Total")) Then
+                             .Caption = rsTable.Fields("Table_Number") & Chr(13) & Format(0, formatNum)
+                        Else
+                           .Caption = rsTable.Fields("Table_Number") & Chr(13) & Format(Abs(rsInvoice_Total.Fields("Grand_Total")), formatNum)
+                        End If
                     .BackStyle = 1
                     .BackColor = rsSeatedColor.Fields("ReserveValue")
                     .Font.Size = rsTable.Fields("Cost_Center_Index")
@@ -2586,7 +2595,7 @@ Dim isUpdate As Boolean
                     If Not .EOF Then
                         If .Fields("InvoiceNotesUsed") = True Then
                             MsgBox "Bµn nµy ®· ®­îc më t¹i mét m¸y kh¸c, B¹n kh«ng thÓ më bµn nµy!!!"
-                             picWait.Visible = False
+                             Picwait.Visible = False
                             probarWait.Value = 0
                             isUpdate = False
                             Exit Function
