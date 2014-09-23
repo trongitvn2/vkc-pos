@@ -384,8 +384,8 @@ Begin VB.Form frmEditTablePlan
       Left            =   0
       TabIndex        =   2
       Top             =   0
-      Width           =   15525
-      _ExtentX        =   27384
+      Width           =   20325
+      _ExtentX        =   35851
       _ExtentY        =   1931
       _Version        =   393216
       Tabs            =   1
@@ -403,27 +403,49 @@ Begin VB.Form frmEditTablePlan
       Tab(0).Control(1).Enabled=   0   'False
       Tab(0).Control(2)=   "Label3"
       Tab(0).Control(2).Enabled=   0   'False
-      Tab(0).Control(3)=   "cmdDeleteLocation"
+      Tab(0).Control(3)=   "Label2"
       Tab(0).Control(3).Enabled=   0   'False
-      Tab(0).Control(4)=   "cmdDeleteTable"
+      Tab(0).Control(4)=   "Label4"
       Tab(0).Control(4).Enabled=   0   'False
-      Tab(0).Control(5)=   "cmdAddLocation"
+      Tab(0).Control(5)=   "cmdDeleteLocation"
       Tab(0).Control(5).Enabled=   0   'False
-      Tab(0).Control(6)=   "cmdAddTable"
+      Tab(0).Control(6)=   "cmdDeleteTable"
       Tab(0).Control(6).Enabled=   0   'False
-      Tab(0).Control(7)=   "cmdHelp"
+      Tab(0).Control(7)=   "cmdAddLocation"
       Tab(0).Control(7).Enabled=   0   'False
-      Tab(0).Control(8)=   "cmdDone"
+      Tab(0).Control(8)=   "cmdAddTable"
       Tab(0).Control(8).Enabled=   0   'False
-      Tab(0).Control(9)=   "SSTab3"
+      Tab(0).Control(9)=   "cmdHelp"
       Tab(0).Control(9).Enabled=   0   'False
-      Tab(0).Control(10)=   "cboSeat"
+      Tab(0).Control(10)=   "cmdDone"
       Tab(0).Control(10).Enabled=   0   'False
-      Tab(0).Control(11)=   "frasize"
+      Tab(0).Control(11)=   "SSTab3"
       Tab(0).Control(11).Enabled=   0   'False
-      Tab(0).Control(12)=   "Picture1"
+      Tab(0).Control(12)=   "cboSeat"
       Tab(0).Control(12).Enabled=   0   'False
-      Tab(0).ControlCount=   13
+      Tab(0).Control(13)=   "frasize"
+      Tab(0).Control(13).Enabled=   0   'False
+      Tab(0).Control(14)=   "Picture1"
+      Tab(0).Control(14).Enabled=   0   'False
+      Tab(0).Control(15)=   "txtxpos"
+      Tab(0).Control(15).Enabled=   0   'False
+      Tab(0).Control(16)=   "txtypos"
+      Tab(0).Control(16).Enabled=   0   'False
+      Tab(0).ControlCount=   17
+      Begin VB.TextBox txtypos 
+         Height          =   495
+         Left            =   18600
+         TabIndex        =   35
+         Top             =   360
+         Width           =   1335
+      End
+      Begin VB.TextBox txtxpos 
+         Height          =   495
+         Left            =   16440
+         TabIndex        =   33
+         Top             =   360
+         Width           =   1335
+      End
       Begin VB.PictureBox Picture1 
          Height          =   15
          Left            =   0
@@ -467,11 +489,11 @@ Begin VB.Form frmEditTablePlan
       End
       Begin VB.ComboBox cboSeat 
          Height          =   390
-         Left            =   13740
+         Left            =   13980
          TabIndex        =   3
          Text            =   "N/A"
          Top             =   510
-         Width           =   1455
+         Width           =   1215
       End
       Begin TabDlg.SSTab SSTab3 
          Height          =   1095
@@ -804,12 +826,28 @@ Begin VB.Form frmEditTablePlan
          CHECK           =   0   'False
          Value           =   0   'False
       End
+      Begin VB.Label Label4 
+         Caption         =   "YPos"
+         Height          =   375
+         Left            =   17880
+         TabIndex        =   36
+         Top             =   480
+         Width           =   855
+      End
+      Begin VB.Label Label2 
+         Caption         =   "XPos"
+         Height          =   375
+         Left            =   15600
+         TabIndex        =   34
+         Top             =   480
+         Width           =   855
+      End
       Begin VB.Label Label3 
          Alignment       =   2  'Center
          Caption         =   "Sè ghÕ tèi ®a"
          ForeColor       =   &H00FF0000&
          Height          =   375
-         Left            =   13470
+         Left            =   13710
          TabIndex        =   19
          Tag             =   "L7"
          Top             =   150
@@ -821,10 +859,10 @@ Begin VB.Form frmEditTablePlan
          Caption         =   "1"
          ForeColor       =   &H000000FF&
          Height          =   270
-         Left            =   13035
+         Left            =   12675
          TabIndex        =   18
          Top             =   540
-         Width           =   165
+         Width           =   1245
       End
       Begin VB.Label Label1 
          Alignment       =   2  'Center
@@ -835,7 +873,7 @@ Begin VB.Form frmEditTablePlan
          TabIndex        =   17
          Tag             =   "L6"
          Top             =   120
-         Width           =   1035
+         Width           =   1275
       End
    End
    Begin prjTouchScreen.MyButton cmdPrint_Receipt 
@@ -930,6 +968,8 @@ Dim rsInvoice_On_Holds As New ADODB.Recordset
 Dim indexTable As Integer
 Dim rsAlign As New ADODB.Recordset
 Dim XPos, YPos As Integer
+Dim tableCaption  As String
+
 
 Private Sub cboSeat_Change()
 On Error GoTo Handle
@@ -1166,7 +1206,6 @@ End Sub
 Private Sub lblTable_Click(Index As Integer)
     On Error GoTo Handle
     Dim i As Integer
-        Dim tableCaption  As String
         tableCaption = Left(lblTable(Index).Caption, InStr(Replace(lblTable(Index).Caption, Chr(13) & Chr(13), Chr(13)), Chr(13)))
         tableCaption = Replace(tableCaption, Chr(13), "")
         lblSeat.Caption = tableCaption
@@ -1177,6 +1216,8 @@ Private Sub lblTable_Click(Index As Integer)
                 txtWidth.Text = .Fields("Width")
                 txtHeight.Text = .Fields("Height")
                 txtFont.Text = .Fields("Cost_Center_Index")
+                txtxpos.Text = .Fields("XPOS")
+                txtypos.Text = .Fields("YPOS")
             End If
         End With
         indexTable = Index
@@ -1521,7 +1562,7 @@ On Error GoTo Handle
     '                .Requery
                 End If
         End With
-  'cmdSection_Click (Int(Sec_ID))
+'  cmdSection_Click (Int(Sec_ID))
 Exit Sub
 Handle:
 MsgBox Err.Number & Err.Description & Me.name & " txtFont_KeyPress"
@@ -1533,7 +1574,7 @@ Private Sub txtFont_KeyUp(KeyCode As Integer, Shift As Integer)
     If KeyCode = vbKeyDown Then
     Set rsTable = OpenCriticalTable("select * from Table_Diagram where Section_ID='" & Sec_ID & "'", cnData)
         With rsTable
-            .Find "Table_Number='" & lblSeat.Caption & "'", , adSearchForward, adBookmarkFirst
+            .Find "Table_Number='" & tableCaption & "'", , adSearchForward, adBookmarkFirst
                 If Not .EOF Then
                     .Fields("Width") = CDbl("0" & txtWidth.Text)
                     .Fields("Height") = CDbl("0" & txtHeight.Text)
@@ -1654,11 +1695,39 @@ On Error GoTo Handle:
 Dim i As Integer
 txtFont.Clear
     With txtFont
-        For i = 14 To 24
+        For i = 12 To 24
             .AddItem i
         Next
     End With
 Exit Sub
 Handle:
 MsgBox Err.Number & Err.Description & Me.name & " Load_font"
+End Sub
+
+Private Sub txtxpos_KeyPress(KeyAscii As Integer)
+    If KeyAscii = 13 Then
+        With rsTable
+            .Find "Table_Number='" & tableCaption & "'", , adSearchForward, adBookmarkFirst
+            If Not .EOF Then
+                 .Fields("XPOS") = txtxpos.Text
+                .Update
+            End If
+        End With
+    End If
+    Call cmdSection_Click(Int(Sec_ID))
+End Sub
+
+
+
+Private Sub txtypos_KeyPress(KeyAscii As Integer)
+If KeyAscii = 13 Then
+        With rsTable
+            .Find "Table_Number='" & tableCaption & "'", , adSearchForward, adBookmarkFirst
+            If Not .EOF Then
+                 .Fields("YPOS") = txtypos.Text
+                .Update
+            End If
+        End With
+    End If
+    Call cmdSection_Click(Int(Sec_ID))
 End Sub
