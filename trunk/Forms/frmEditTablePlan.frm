@@ -31,13 +31,13 @@ Begin VB.Form frmEditTablePlan
       Left            =   13320
       ScaleHeight     =   8475
       ScaleWidth      =   2115
-      TabIndex        =   25
+      TabIndex        =   24
       Top             =   1080
       Width           =   2175
       Begin MSFlexGridLib.MSFlexGrid MSFlexGrid1 
          Height          =   3855
          Left            =   0
-         TabIndex        =   26
+         TabIndex        =   25
          Top             =   4560
          Width           =   2055
          _ExtentX        =   3625
@@ -47,7 +47,7 @@ Begin VB.Form frmEditTablePlan
       Begin prjTouchScreen.MyButton cmdReserve 
          Height          =   780
          Left            =   0
-         TabIndex        =   27
+         TabIndex        =   26
          Top             =   840
          Width           =   2040
          _ExtentX        =   3598
@@ -85,7 +85,7 @@ Begin VB.Form frmEditTablePlan
       Begin prjTouchScreen.MyButton cmdPrintedBill 
          Height          =   780
          Left            =   0
-         TabIndex        =   28
+         TabIndex        =   27
          Top             =   1680
          Width           =   2040
          _ExtentX        =   3598
@@ -123,7 +123,7 @@ Begin VB.Form frmEditTablePlan
       Begin prjTouchScreen.MyButton cmdTReserved 
          Height          =   780
          Left            =   0
-         TabIndex        =   29
+         TabIndex        =   28
          Top             =   2520
          Width           =   2040
          _ExtentX        =   3598
@@ -161,7 +161,7 @@ Begin VB.Form frmEditTablePlan
       Begin prjTouchScreen.MyButton cmdPayment 
          Height          =   780
          Left            =   0
-         TabIndex        =   30
+         TabIndex        =   29
          Top             =   0
          Width           =   2040
          _ExtentX        =   3598
@@ -199,7 +199,7 @@ Begin VB.Form frmEditTablePlan
       Begin prjTouchScreen.MyButton cmdClose 
          Height          =   780
          Left            =   0
-         TabIndex        =   31
+         TabIndex        =   30
          Top             =   3360
          Width           =   2040
          _ExtentX        =   3598
@@ -240,7 +240,7 @@ Begin VB.Form frmEditTablePlan
          ForeColor       =   &H00FF0000&
          Height          =   375
          Left            =   0
-         TabIndex        =   32
+         TabIndex        =   31
          Top             =   4200
          Width           =   2055
       End
@@ -254,27 +254,6 @@ Begin VB.Form frmEditTablePlan
       TabIndex        =   21
       Top             =   1080
       Width           =   13245
-      Begin VB.Label lblSection 
-         Alignment       =   1  'Right Justify
-         AutoSize        =   -1  'True
-         BackStyle       =   0  'Transparent
-         Caption         =   "Section"
-         BeginProperty Font 
-            Name            =   ".VnArialH"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         ForeColor       =   &H0000FF00&
-         Height          =   315
-         Left            =   11040
-         TabIndex        =   23
-         Top             =   0
-         Width           =   1545
-      End
       Begin VB.Label lblTable 
          Alignment       =   2  'Center
          BackColor       =   &H00FF8080&
@@ -407,44 +386,48 @@ Begin VB.Form frmEditTablePlan
       Tab(0).Control(3).Enabled=   0   'False
       Tab(0).Control(4)=   "Label4"
       Tab(0).Control(4).Enabled=   0   'False
-      Tab(0).Control(5)=   "cmdDeleteLocation"
+      Tab(0).Control(5)=   "lblSection"
       Tab(0).Control(5).Enabled=   0   'False
-      Tab(0).Control(6)=   "cmdDeleteTable"
+      Tab(0).Control(6)=   "Label5"
       Tab(0).Control(6).Enabled=   0   'False
-      Tab(0).Control(7)=   "cmdAddLocation"
+      Tab(0).Control(7)=   "cmdDeleteLocation"
       Tab(0).Control(7).Enabled=   0   'False
-      Tab(0).Control(8)=   "cmdAddTable"
+      Tab(0).Control(8)=   "cmdDeleteTable"
       Tab(0).Control(8).Enabled=   0   'False
-      Tab(0).Control(9)=   "cmdHelp"
+      Tab(0).Control(9)=   "cmdAddLocation"
       Tab(0).Control(9).Enabled=   0   'False
-      Tab(0).Control(10)=   "cmdDone"
+      Tab(0).Control(10)=   "cmdAddTable"
       Tab(0).Control(10).Enabled=   0   'False
-      Tab(0).Control(11)=   "SSTab3"
+      Tab(0).Control(11)=   "cmdHelp"
       Tab(0).Control(11).Enabled=   0   'False
-      Tab(0).Control(12)=   "cboSeat"
+      Tab(0).Control(12)=   "cmdDone"
       Tab(0).Control(12).Enabled=   0   'False
-      Tab(0).Control(13)=   "frasize"
+      Tab(0).Control(13)=   "SSTab3"
       Tab(0).Control(13).Enabled=   0   'False
-      Tab(0).Control(14)=   "Picture1"
+      Tab(0).Control(14)=   "cboSeat"
       Tab(0).Control(14).Enabled=   0   'False
-      Tab(0).Control(15)=   "txtxpos"
+      Tab(0).Control(15)=   "frasize"
       Tab(0).Control(15).Enabled=   0   'False
-      Tab(0).Control(16)=   "txtypos"
+      Tab(0).Control(16)=   "Picture1"
       Tab(0).Control(16).Enabled=   0   'False
-      Tab(0).ControlCount=   17
+      Tab(0).Control(17)=   "txtxpos"
+      Tab(0).Control(17).Enabled=   0   'False
+      Tab(0).Control(18)=   "txtypos"
+      Tab(0).Control(18).Enabled=   0   'False
+      Tab(0).ControlCount=   19
       Begin VB.TextBox txtypos 
          Height          =   495
-         Left            =   18600
-         TabIndex        =   35
+         Left            =   19200
+         TabIndex        =   34
          Top             =   360
-         Width           =   1335
+         Width           =   975
       End
       Begin VB.TextBox txtxpos 
          Height          =   495
-         Left            =   16440
-         TabIndex        =   33
+         Left            =   17280
+         TabIndex        =   32
          Top             =   360
-         Width           =   1335
+         Width           =   1095
       End
       Begin VB.PictureBox Picture1 
          Height          =   15
@@ -489,7 +472,7 @@ Begin VB.Form frmEditTablePlan
       End
       Begin VB.ComboBox cboSeat 
          Height          =   390
-         Left            =   13980
+         Left            =   15180
          TabIndex        =   3
          Text            =   "N/A"
          Top             =   510
@@ -826,28 +809,59 @@ Begin VB.Form frmEditTablePlan
          CHECK           =   0   'False
          Value           =   0   'False
       End
+      Begin VB.Label Label5 
+         Alignment       =   2  'Center
+         Caption         =   "Khu vùc"
+         ForeColor       =   &H00FF0000&
+         Height          =   435
+         Left            =   12600
+         TabIndex        =   37
+         Top             =   120
+         Width           =   1515
+      End
+      Begin VB.Label lblSection 
+         Alignment       =   2  'Center
+         AutoSize        =   -1  'True
+         BackStyle       =   0  'Transparent
+         Caption         =   "Section"
+         BeginProperty Font 
+            Name            =   ".VnArialH"
+            Size            =   12
+            Charset         =   0
+            Weight          =   400
+            Underline       =   0   'False
+            Italic          =   0   'False
+            Strikethrough   =   0   'False
+         EndProperty
+         ForeColor       =   &H00FF0000&
+         Height          =   315
+         Left            =   12720
+         TabIndex        =   36
+         Top             =   480
+         Width           =   1305
+      End
       Begin VB.Label Label4 
          Caption         =   "YPos"
          Height          =   375
-         Left            =   17880
-         TabIndex        =   36
+         Left            =   18480
+         TabIndex        =   35
          Top             =   480
-         Width           =   855
+         Width           =   735
       End
       Begin VB.Label Label2 
          Caption         =   "XPos"
          Height          =   375
-         Left            =   15600
-         TabIndex        =   34
+         Left            =   16560
+         TabIndex        =   33
          Top             =   480
-         Width           =   855
+         Width           =   735
       End
       Begin VB.Label Label3 
          Alignment       =   2  'Center
          Caption         =   "Sè ghÕ tèi ®a"
          ForeColor       =   &H00FF0000&
          Height          =   375
-         Left            =   13710
+         Left            =   14910
          TabIndex        =   19
          Tag             =   "L7"
          Top             =   150
@@ -859,7 +873,7 @@ Begin VB.Form frmEditTablePlan
          Caption         =   "1"
          ForeColor       =   &H000000FF&
          Height          =   270
-         Left            =   12675
+         Left            =   13875
          TabIndex        =   18
          Top             =   540
          Width           =   1245
@@ -869,7 +883,7 @@ Begin VB.Form frmEditTablePlan
          Caption         =   "Bµn sè"
          ForeColor       =   &H00FF0000&
          Height          =   435
-         Left            =   12570
+         Left            =   13890
          TabIndex        =   17
          Tag             =   "L6"
          Top             =   120
@@ -879,7 +893,7 @@ Begin VB.Form frmEditTablePlan
    Begin prjTouchScreen.MyButton cmdPrint_Receipt 
       Height          =   780
       Left            =   13080
-      TabIndex        =   24
+      TabIndex        =   23
       Top             =   240
       Width           =   2040
       _ExtentX        =   3598
@@ -1011,6 +1025,8 @@ Private Sub cmdAddTable_Click()
 On Error GoTo Handle
     With frmRangeTable
         .Get_Location = Sec_ID
+        .Get_Width = fraTable.Width
+        .Get_Height = fraTable.Height
         .Show vbModal
         
     End With
