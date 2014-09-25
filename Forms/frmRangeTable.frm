@@ -323,12 +323,14 @@ Attribute VB_Exposed = False
 Option Explicit
 Dim Location As String
 Dim rsTable As New ADODB.Recordset
+Dim Width_Layout As Integer
+Dim Height_Layout As Integer
 
 Private Sub cmdCancel_Click()
     Unload Me
 End Sub
 
-Private Sub cmdOK_Click()
+Private Sub cmdOk_Click()
 On Error GoTo Handle
     If OptSingle.Value = True Then
         Unload Me
@@ -346,14 +348,16 @@ On Error GoTo Handle
                 MsgBox "Víi kÝch th­íc nµy, b¹n kh«ng thÓ thªm ®­îc "
             Else
                 If chkAutoRange.Value = 1 Then
-                    Call AddTableRange(CInt(txtFrom.Text), CInt(txtTo.Text))
+                    'Call AddTableRange(CInt(txtFrom.Text), CInt(txtTo.Text))
+                    Call Auto_Range(txtwidth.Text, txtHeight.Text, CInt(txtTo.Text))
                 Else
                     Call AddTable(CInt(txtFrom.Text), CInt(txtTo.Text))
                 End If
             End If
         Else
             If chkAutoRange.Value = 1 Then
-                Call AddTableRange(CInt(txtFrom.Text), CInt(txtTo.Text))
+'                Call AddTableRange(CInt(txtFrom.Text), CInt(txtTo.Text))
+                Call Auto_Range(txtwidth.Text, txtHeight.Text, CInt(txtTo.Text))
             Else
                 Call AddTable(CInt(txtFrom.Text), CInt(txtTo.Text))
             End If
@@ -494,7 +498,7 @@ End Sub
 
 Private Sub txtTo_KeyPress(KeyAscii As Integer)
 On Error GoTo Handle
-     If KeyAscii = 13 Then cmdOK_Click
+     If KeyAscii = 13 Then cmdOk_Click
     If KeyAscii < 32 Then Exit Sub
     Select Case KeyAscii
         Case 48 To 57, 46
@@ -602,4 +606,60 @@ Exit Sub
 Handle:
     MsgBox Err.Number & Err.Description & Me.name & " AddTable"
 
+End Sub
+
+
+
+Public Property Let Get_Width(ByVal vNewValue As Variant)
+    Width_Layout = vNewValue
+End Property
+
+
+Public Property Let Get_Height(ByVal vNewValue As Variant)
+    Height_Layout = vNewValue
+End Property
+
+Public Sub Auto_Range(Tablewidth As Integer, TableHeight As Integer, NumofTable As Integer)
+    On Error GoTo Handle
+        Dim rows, cols As Integer
+        Dim i, j As Integer
+        cols = Int((Width_Layout - 500) / Tablewidth)
+        rows = Int(NumofTable / cols) + 1
+        Dim cap As Integer
+        For i = 1 To rows
+            For j = 1 To cols
+            cap = (i * cols) - cols + j
+                If cap > NumofTable Then Exit Sub
+                With rsTable
+                    rsTable.Find "Table_Number='" & Trim(tblSymbol.Text) & cap & "'", , adSearchForward, adBookmarkFirst
+                    If .EOF Then
+                        rsTable.addNew
+                        rsTable!Store_ID = Store_ID
+                        rsTable!Section_ID = Sec_ID
+                        rsTable!Table_Number = Trim(tblSymbol.Text) & cap
+                        If i = 1 Then
+                            rsTable!YPos = i * TableHeight - TableHeight
+                        Else
+                            rsTable!YPos = i * TableHeight - TableHeight + i * 50
+                        End If
+                        If j = 1 Then
+                            rsTable!XPos = j * Tablewidth - Tablewidth
+                        Else
+                            rsTable!XPos = j * Tablewidth - Tablewidth + j * 50
+                        End If
+                        
+                        rsTable!Height = TableHeight
+                        rsTable!Width = Tablewidth
+                        rsTable!Cost_Center_Index = cbofont.Text
+                        rsTable!NumSeats = 1
+                        rsTable!ShapeType = 0
+                        rsTable.Update
+                        rsTable.Requery
+                    End If
+                End With
+            Next j
+        Next i
+    Exit Sub
+Handle:
+    MsgBox Err.Number & Err.Description & Me.name & " Auto_Range"
 End Sub
