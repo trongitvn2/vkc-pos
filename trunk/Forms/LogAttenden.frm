@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCT2.OCX"
+Object = "{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}#2.0#0"; "mscomct2.ocx"
 Begin VB.Form frmClerkLogin 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "§¨ng nhËp chÊm c«ng"
@@ -221,7 +221,7 @@ Begin VB.Form frmClerkLogin
          Strikethrough   =   0   'False
       EndProperty
       CustomFormat    =   "HH:mm:ss"
-      Format          =   16449538
+      Format          =   64225282
       UpDown          =   -1  'True
       CurrentDate     =   38462.5826388889
    End
@@ -395,7 +395,7 @@ End Sub
 
 Private Sub Form_Load()
 On Error GoTo Handle
-'    If cnData.State = 0 Then Set cnData = Get_Connection(WorkingFolder & "\Database.mdb", "100881administrator")
+    If cnData.State = 0 Then Set cnData = Get_Connection(ServerName, DataBaseName, UserLog, DB_Password)
     Set rsEmployee = Open_Table(cnData, "Employee")
     Set rsInOut = Open_Table(cnData, "Attendent")
     Set rsInOutPrint = Open_Table(cnData, "InOutAttendent")

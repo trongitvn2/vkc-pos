@@ -1,5 +1,4 @@
 VERSION 5.00
-Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "msflxgrd.ocx"
 Object = "{BDC217C8-ED16-11CD-956C-0000C04E4C0A}#1.1#0"; "TABCTL32.OCX"
 Begin VB.Form frmEditTablePlan 
    BackColor       =   &H00C0C0C0&
@@ -30,177 +29,86 @@ Begin VB.Form frmEditTablePlan
       Height          =   8535
       Left            =   13320
       ScaleHeight     =   8475
-      ScaleWidth      =   2115
-      TabIndex        =   24
+      ScaleWidth      =   1875
+      TabIndex        =   20
       Top             =   1080
-      Width           =   2175
-      Begin MSFlexGridLib.MSFlexGrid MSFlexGrid1 
-         Height          =   3855
-         Left            =   0
-         TabIndex        =   25
-         Top             =   4560
-         Width           =   2055
-         _ExtentX        =   3625
-         _ExtentY        =   6800
-         _Version        =   393216
-      End
-      Begin prjTouchScreen.MyButton cmdReserve 
-         Height          =   780
-         Left            =   0
-         TabIndex        =   26
-         Top             =   840
-         Width           =   2040
-         _ExtentX        =   3598
-         _ExtentY        =   1376
-         BTYPE           =   5
-         TX              =   "§Æt tiÖc"
+      Width           =   1935
+      Begin prjTouchScreen.MyButton cmdRange 
+         Height          =   735
+         Left            =   120
+         TabIndex        =   35
+         Top             =   3360
+         Width           =   1695
+         _ExtentX        =   2990
+         _ExtentY        =   1296
+         BTYPE           =   6
+         TX              =   "§Æt l¹i  tù ®éng"
          ENAB            =   -1  'True
          BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
             Name            =   ".VnArial"
             Size            =   12
             Charset         =   0
-            Weight          =   400
+            Weight          =   700
             Underline       =   0   'False
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
          COLTYPE         =   2
          FOCUSR          =   -1  'True
-         BCOL            =   -2147483647
-         BCOLO           =   -2147483647
+         BCOL            =   16744576
+         BCOLO           =   16744576
          FCOL            =   16777215
          FCOLO           =   16777215
-         MCOL            =   16777215
+         MCOL            =   12632256
          MPTR            =   1
          MICON           =   "frmEditTablePlan.frx":000C
          UMCOL           =   -1  'True
          SOFT            =   0   'False
-         PICPOS          =   4
+         PICPOS          =   0
          NGREY           =   0   'False
          FX              =   0
          HAND            =   0   'False
          CHECK           =   0   'False
          Value           =   0   'False
       End
-      Begin prjTouchScreen.MyButton cmdPrintedBill 
-         Height          =   780
-         Left            =   0
-         TabIndex        =   27
-         Top             =   1680
-         Width           =   2040
-         _ExtentX        =   3598
-         _ExtentY        =   1376
-         BTYPE           =   5
-         TX              =   "In l¹i H§"
-         ENAB            =   -1  'True
-         BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   ".VnArial"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         COLTYPE         =   2
-         FOCUSR          =   -1  'True
-         BCOL            =   -2147483647
-         BCOLO           =   -2147483647
-         FCOL            =   16777215
-         FCOLO           =   16777215
-         MCOL            =   16777215
-         MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":0028
-         UMCOL           =   -1  'True
-         SOFT            =   0   'False
-         PICPOS          =   4
-         NGREY           =   0   'False
-         FX              =   0
-         HAND            =   0   'False
-         CHECK           =   0   'False
-         Value           =   0   'False
+      Begin VB.CheckBox chkRange 
+         BackColor       =   &H00C0C0C0&
+         Caption         =   "S¾p xÕp l¹i"
+         ForeColor       =   &H00FF0000&
+         Height          =   375
+         Left            =   120
+         TabIndex        =   34
+         Top             =   2880
+         Width           =   1695
       End
-      Begin prjTouchScreen.MyButton cmdTReserved 
-         Height          =   780
-         Left            =   0
-         TabIndex        =   28
-         Top             =   2520
-         Width           =   2040
-         _ExtentX        =   3598
-         _ExtentY        =   1376
-         BTYPE           =   5
-         TX              =   "Më KÐt"
-         ENAB            =   -1  'True
-         BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   ".VnArial"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         COLTYPE         =   2
-         FOCUSR          =   -1  'True
-         BCOL            =   -2147483647
-         BCOLO           =   -2147483647
-         FCOL            =   16777215
-         FCOLO           =   16777215
-         MCOL            =   16777215
-         MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":0044
-         UMCOL           =   -1  'True
-         SOFT            =   0   'False
-         PICPOS          =   4
-         NGREY           =   0   'False
-         FX              =   0
-         HAND            =   0   'False
-         CHECK           =   0   'False
-         Value           =   0   'False
+      Begin VB.ComboBox txtFont 
+         Height          =   390
+         ItemData        =   "frmEditTablePlan.frx":0028
+         Left            =   120
+         List            =   "frmEditTablePlan.frx":002A
+         TabIndex        =   30
+         Top             =   2160
+         Width           =   1695
       End
-      Begin prjTouchScreen.MyButton cmdPayment 
-         Height          =   780
-         Left            =   0
+      Begin VB.TextBox txtHeight 
+         Height          =   390
+         Left            =   120
          TabIndex        =   29
-         Top             =   0
-         Width           =   2040
-         _ExtentX        =   3598
-         _ExtentY        =   1376
-         BTYPE           =   5
-         TX              =   "Thanh to¸n"
-         ENAB            =   -1  'True
-         BeginProperty FONT {0BE35203-8F91-11CE-9DE3-00AA004BB851} 
-            Name            =   ".VnArial"
-            Size            =   12
-            Charset         =   0
-            Weight          =   400
-            Underline       =   0   'False
-            Italic          =   0   'False
-            Strikethrough   =   0   'False
-         EndProperty
-         COLTYPE         =   2
-         FOCUSR          =   -1  'True
-         BCOL            =   -2147483647
-         BCOLO           =   -2147483647
-         FCOL            =   16777215
-         FCOLO           =   16777215
-         MCOL            =   16777215
-         MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":0060
-         UMCOL           =   -1  'True
-         SOFT            =   0   'False
-         PICPOS          =   4
-         NGREY           =   0   'False
-         FX              =   0
-         HAND            =   0   'False
-         CHECK           =   0   'False
-         Value           =   0   'False
+         Top             =   1320
+         Width           =   1695
+      End
+      Begin VB.TextBox txtWidth 
+         Height          =   390
+         Left            =   120
+         TabIndex        =   28
+         Top             =   480
+         Width           =   1695
       End
       Begin prjTouchScreen.MyButton cmdClose 
          Height          =   780
          Left            =   0
-         TabIndex        =   30
-         Top             =   3360
+         TabIndex        =   21
+         Top             =   7680
          Width           =   2040
          _ExtentX        =   3598
          _ExtentY        =   1376
@@ -224,7 +132,7 @@ Begin VB.Form frmEditTablePlan
          FCOLO           =   16777215
          MCOL            =   16777215
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":007C
+         MICON           =   "frmEditTablePlan.frx":002C
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -234,15 +142,38 @@ Begin VB.Form frmEditTablePlan
          CHECK           =   0   'False
          Value           =   0   'False
       End
-      Begin VB.Label lblnote 
+      Begin VB.Label Label6 
          BackStyle       =   0  'Transparent
-         Caption         =   "DS tiÖc trong ngµy"
+         Caption         =   "Font size"
          ForeColor       =   &H00FF0000&
-         Height          =   375
-         Left            =   0
+         Height          =   315
+         Index           =   2
+         Left            =   120
+         TabIndex        =   33
+         Top             =   1800
+         Width           =   1755
+      End
+      Begin VB.Label Label6 
+         BackStyle       =   0  'Transparent
+         Caption         =   "ChiÒu cao"
+         ForeColor       =   &H00FF0000&
+         Height          =   315
+         Index           =   1
+         Left            =   120
+         TabIndex        =   32
+         Top             =   960
+         Width           =   1515
+      End
+      Begin VB.Label Label6 
+         BackStyle       =   0  'Transparent
+         Caption         =   "ChiÒu réng"
+         ForeColor       =   &H00FF0000&
+         Height          =   315
+         Index           =   0
+         Left            =   120
          TabIndex        =   31
-         Top             =   4200
-         Width           =   2055
+         Top             =   120
+         Width           =   1515
       End
    End
    Begin VB.PictureBox fraTable 
@@ -251,7 +182,7 @@ Begin VB.Form frmEditTablePlan
       Left            =   0
       ScaleHeight     =   8475
       ScaleWidth      =   13185
-      TabIndex        =   21
+      TabIndex        =   17
       Top             =   1080
       Width           =   13245
       Begin VB.Label lblTable 
@@ -272,7 +203,7 @@ Begin VB.Form frmEditTablePlan
          Height          =   975
          Index           =   0
          Left            =   360
-         TabIndex        =   22
+         TabIndex        =   18
          Top             =   840
          Visible         =   0   'False
          Width           =   1695
@@ -312,7 +243,7 @@ Begin VB.Form frmEditTablePlan
       TabHeight       =   520
       BackColor       =   12632256
       TabCaption(0)   =   "   "
-      TabPicture(0)   =   "frmEditTablePlan.frx":0098
+      TabPicture(0)   =   "frmEditTablePlan.frx":0048
       Tab(0).ControlEnabled=   -1  'True
       Tab(0).Control(0)=   "cmdSection(0)"
       Tab(0).Control(0).Enabled=   0   'False
@@ -347,7 +278,7 @@ Begin VB.Form frmEditTablePlan
          FCOLO           =   16777215
          MCOL            =   12632256
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":00B4
+         MICON           =   "frmEditTablePlan.frx":0064
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -374,7 +305,7 @@ Begin VB.Form frmEditTablePlan
       ForeColor       =   4210752
       OLEDropMode     =   1
       TabCaption(0)   =   "   "
-      TabPicture(0)   =   "frmEditTablePlan.frx":00D0
+      TabPicture(0)   =   "frmEditTablePlan.frx":0080
       Tab(0).ControlEnabled=   -1  'True
       Tab(0).Control(0)=   "Label1"
       Tab(0).Control(0).Enabled=   0   'False
@@ -406,26 +337,24 @@ Begin VB.Form frmEditTablePlan
       Tab(0).Control(13).Enabled=   0   'False
       Tab(0).Control(14)=   "cboSeat"
       Tab(0).Control(14).Enabled=   0   'False
-      Tab(0).Control(15)=   "frasize"
+      Tab(0).Control(15)=   "Picture1"
       Tab(0).Control(15).Enabled=   0   'False
-      Tab(0).Control(16)=   "Picture1"
+      Tab(0).Control(16)=   "txtxpos"
       Tab(0).Control(16).Enabled=   0   'False
-      Tab(0).Control(17)=   "txtxpos"
+      Tab(0).Control(17)=   "txtypos"
       Tab(0).Control(17).Enabled=   0   'False
-      Tab(0).Control(18)=   "txtypos"
-      Tab(0).Control(18).Enabled=   0   'False
-      Tab(0).ControlCount=   19
+      Tab(0).ControlCount=   18
       Begin VB.TextBox txtypos 
          Height          =   495
          Left            =   19200
-         TabIndex        =   34
+         TabIndex        =   24
          Top             =   360
          Width           =   975
       End
       Begin VB.TextBox txtxpos 
          Height          =   495
          Left            =   17280
-         TabIndex        =   32
+         TabIndex        =   22
          Top             =   360
          Width           =   1095
       End
@@ -434,41 +363,9 @@ Begin VB.Form frmEditTablePlan
          Left            =   0
          ScaleHeight     =   15
          ScaleWidth      =   7815
-         TabIndex        =   20
+         TabIndex        =   16
          Top             =   1080
          Width           =   7815
-      End
-      Begin VB.Frame frasize 
-         Caption         =   "Réng        Cao         Font size"
-         ForeColor       =   &H00FF0000&
-         Height          =   855
-         Left            =   9360
-         TabIndex        =   4
-         Top             =   120
-         Width           =   3255
-         Begin VB.ComboBox txtFont 
-            Height          =   390
-            ItemData        =   "frmEditTablePlan.frx":00EC
-            Left            =   2280
-            List            =   "frmEditTablePlan.frx":00EE
-            TabIndex        =   7
-            Top             =   360
-            Width           =   855
-         End
-         Begin VB.TextBox txtHeight 
-            Height          =   390
-            Left            =   1200
-            TabIndex        =   6
-            Top             =   360
-            Width           =   975
-         End
-         Begin VB.TextBox txtWidth 
-            Height          =   390
-            Left            =   120
-            TabIndex        =   5
-            Top             =   360
-            Width           =   975
-         End
       End
       Begin VB.ComboBox cboSeat 
          Height          =   390
@@ -481,7 +378,7 @@ Begin VB.Form frmEditTablePlan
       Begin TabDlg.SSTab SSTab3 
          Height          =   1095
          Left            =   -270
-         TabIndex        =   8
+         TabIndex        =   4
          Top             =   1230
          Width           =   11895
          _ExtentX        =   20981
@@ -491,7 +388,7 @@ Begin VB.Form frmEditTablePlan
          TabsPerRow      =   1
          TabHeight       =   520
          TabCaption(0)   =   "Tab 0"
-         TabPicture(0)   =   "frmEditTablePlan.frx":00F0
+         TabPicture(0)   =   "frmEditTablePlan.frx":009C
          Tab(0).ControlEnabled=   -1  'True
          Tab(0).Control(0)=   "MyButton2"
          Tab(0).Control(0).Enabled=   0   'False
@@ -501,7 +398,7 @@ Begin VB.Form frmEditTablePlan
          Begin prjTouchScreen.MyButton MyButton1 
             Height          =   825
             Left            =   120
-            TabIndex        =   9
+            TabIndex        =   5
             Top             =   120
             Width           =   1965
             _ExtentX        =   3466
@@ -526,7 +423,7 @@ Begin VB.Form frmEditTablePlan
             FCOLO           =   0
             MCOL            =   12632256
             MPTR            =   1
-            MICON           =   "frmEditTablePlan.frx":010C
+            MICON           =   "frmEditTablePlan.frx":00B8
             UMCOL           =   -1  'True
             SOFT            =   0   'False
             PICPOS          =   0
@@ -539,7 +436,7 @@ Begin VB.Form frmEditTablePlan
          Begin prjTouchScreen.MyButton MyButton2 
             Height          =   825
             Left            =   2190
-            TabIndex        =   10
+            TabIndex        =   6
             Top             =   120
             Width           =   1965
             _ExtentX        =   3466
@@ -564,7 +461,7 @@ Begin VB.Form frmEditTablePlan
             FCOLO           =   0
             MCOL            =   12632256
             MPTR            =   1
-            MICON           =   "frmEditTablePlan.frx":0128
+            MICON           =   "frmEditTablePlan.frx":00D4
             UMCOL           =   -1  'True
             SOFT            =   0   'False
             PICPOS          =   0
@@ -577,12 +474,12 @@ Begin VB.Form frmEditTablePlan
       End
       Begin prjTouchScreen.MyButton cmdDone 
          Height          =   1035
-         Left            =   7760
-         TabIndex        =   11
+         Left            =   9555
+         TabIndex        =   7
          Tag             =   "L9"
-         Top             =   20
-         Width           =   1575
-         _ExtentX        =   2778
+         Top             =   15
+         Width           =   1935
+         _ExtentX        =   3413
          _ExtentY        =   1826
          BTYPE           =   6
          TX              =   "&Hoµn tÊt"
@@ -598,13 +495,13 @@ Begin VB.Form frmEditTablePlan
          EndProperty
          COLTYPE         =   2
          FOCUSR          =   -1  'True
-         BCOL            =   8421376
-         BCOLO           =   33023
+         BCOL            =   16744576
+         BCOLO           =   16744576
          FCOL            =   16777215
          FCOLO           =   16777215
          MCOL            =   12632256
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":0144
+         MICON           =   "frmEditTablePlan.frx":00F0
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -616,12 +513,12 @@ Begin VB.Form frmEditTablePlan
       End
       Begin prjTouchScreen.MyButton cmdHelp 
          Height          =   1035
-         Left            =   6165
-         TabIndex        =   12
+         Left            =   7605
+         TabIndex        =   8
          Tag             =   "L8"
-         Top             =   20
-         Width           =   1575
-         _ExtentX        =   2778
+         Top             =   15
+         Width           =   1935
+         _ExtentX        =   3413
          _ExtentY        =   1826
          BTYPE           =   6
          TX              =   "Gióp ®ì"
@@ -637,13 +534,13 @@ Begin VB.Form frmEditTablePlan
          EndProperty
          COLTYPE         =   2
          FOCUSR          =   -1  'True
-         BCOL            =   8421376
-         BCOLO           =   33023
+         BCOL            =   16744576
+         BCOLO           =   16744576
          FCOL            =   16777215
          FCOLO           =   16777215
          MCOL            =   16777215
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":0160
+         MICON           =   "frmEditTablePlan.frx":010C
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -655,12 +552,12 @@ Begin VB.Form frmEditTablePlan
       End
       Begin prjTouchScreen.MyButton cmdAddTable 
          Height          =   1035
-         Left            =   100
-         TabIndex        =   13
+         Left            =   105
+         TabIndex        =   9
          Tag             =   "L2"
-         Top             =   20
-         Width           =   1485
-         _ExtentX        =   2619
+         Top             =   15
+         Width           =   1845
+         _ExtentX        =   3254
          _ExtentY        =   1826
          BTYPE           =   6
          TX              =   "&Thªm bµn míi"
@@ -676,13 +573,13 @@ Begin VB.Form frmEditTablePlan
          EndProperty
          COLTYPE         =   2
          FOCUSR          =   -1  'True
-         BCOL            =   8421376
-         BCOLO           =   33023
+         BCOL            =   16744576
+         BCOLO           =   16744576
          FCOL            =   16777215
          FCOLO           =   16777215
          MCOL            =   12632256
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":017C
+         MICON           =   "frmEditTablePlan.frx":0128
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -694,12 +591,12 @@ Begin VB.Form frmEditTablePlan
       End
       Begin prjTouchScreen.MyButton cmdAddLocation 
          Height          =   1035
-         Left            =   3130
-         TabIndex        =   14
+         Left            =   3855
+         TabIndex        =   10
          Tag             =   "L4"
-         Top             =   20
-         Width           =   1485
-         _ExtentX        =   2619
+         Top             =   15
+         Width           =   1845
+         _ExtentX        =   3254
          _ExtentY        =   1826
          BTYPE           =   6
          TX              =   "Thªm khu vùc"
@@ -715,13 +612,13 @@ Begin VB.Form frmEditTablePlan
          EndProperty
          COLTYPE         =   2
          FOCUSR          =   -1  'True
-         BCOL            =   8421376
-         BCOLO           =   33023
+         BCOL            =   16744576
+         BCOLO           =   16744576
          FCOL            =   16777215
          FCOLO           =   16777215
          MCOL            =   12632256
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":0198
+         MICON           =   "frmEditTablePlan.frx":0144
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -733,12 +630,12 @@ Begin VB.Form frmEditTablePlan
       End
       Begin prjTouchScreen.MyButton cmdDeleteTable 
          Height          =   1035
-         Left            =   1620
-         TabIndex        =   15
+         Left            =   1980
+         TabIndex        =   11
          Tag             =   "L3"
-         Top             =   20
-         Width           =   1485
-         _ExtentX        =   2619
+         Top             =   15
+         Width           =   1845
+         _ExtentX        =   3254
          _ExtentY        =   1826
          BTYPE           =   6
          TX              =   "&Xãa bµn"
@@ -754,13 +651,13 @@ Begin VB.Form frmEditTablePlan
          EndProperty
          COLTYPE         =   2
          FOCUSR          =   -1  'True
-         BCOL            =   8421376
-         BCOLO           =   33023
+         BCOL            =   16744576
+         BCOLO           =   16744576
          FCOL            =   16777215
          FCOLO           =   16777215
          MCOL            =   12632256
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":01B4
+         MICON           =   "frmEditTablePlan.frx":0160
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -772,12 +669,12 @@ Begin VB.Form frmEditTablePlan
       End
       Begin prjTouchScreen.MyButton cmdDeleteLocation 
          Height          =   1035
-         Left            =   4650
-         TabIndex        =   16
+         Left            =   5730
+         TabIndex        =   12
          Tag             =   "L5"
-         Top             =   20
-         Width           =   1485
-         _ExtentX        =   2619
+         Top             =   15
+         Width           =   1845
+         _ExtentX        =   3254
          _ExtentY        =   1826
          BTYPE           =   6
          TX              =   "Xãa khu vùc"
@@ -793,13 +690,13 @@ Begin VB.Form frmEditTablePlan
          EndProperty
          COLTYPE         =   2
          FOCUSR          =   -1  'True
-         BCOL            =   8421376
-         BCOLO           =   33023
+         BCOL            =   16744576
+         BCOLO           =   16744576
          FCOL            =   16777215
          FCOLO           =   16777215
          MCOL            =   12632256
          MPTR            =   1
-         MICON           =   "frmEditTablePlan.frx":01D0
+         MICON           =   "frmEditTablePlan.frx":017C
          UMCOL           =   -1  'True
          SOFT            =   0   'False
          PICPOS          =   4
@@ -814,10 +711,10 @@ Begin VB.Form frmEditTablePlan
          Caption         =   "Khu vùc"
          ForeColor       =   &H00FF0000&
          Height          =   435
-         Left            =   12600
-         TabIndex        =   37
+         Left            =   11520
+         TabIndex        =   27
          Top             =   120
-         Width           =   1515
+         Width           =   1995
       End
       Begin VB.Label lblSection 
          Alignment       =   2  'Center
@@ -835,16 +732,16 @@ Begin VB.Form frmEditTablePlan
          EndProperty
          ForeColor       =   &H00FF0000&
          Height          =   315
-         Left            =   12720
-         TabIndex        =   36
+         Left            =   11520
+         TabIndex        =   26
          Top             =   480
-         Width           =   1305
+         Width           =   2265
       End
       Begin VB.Label Label4 
          Caption         =   "YPos"
          Height          =   375
          Left            =   18480
-         TabIndex        =   35
+         TabIndex        =   25
          Top             =   480
          Width           =   735
       End
@@ -852,7 +749,7 @@ Begin VB.Form frmEditTablePlan
          Caption         =   "XPos"
          Height          =   375
          Left            =   16560
-         TabIndex        =   33
+         TabIndex        =   23
          Top             =   480
          Width           =   735
       End
@@ -862,7 +759,7 @@ Begin VB.Form frmEditTablePlan
          ForeColor       =   &H00FF0000&
          Height          =   375
          Left            =   14910
-         TabIndex        =   19
+         TabIndex        =   15
          Tag             =   "L7"
          Top             =   150
          Width           =   1845
@@ -874,7 +771,7 @@ Begin VB.Form frmEditTablePlan
          ForeColor       =   &H000000FF&
          Height          =   270
          Left            =   13875
-         TabIndex        =   18
+         TabIndex        =   14
          Top             =   540
          Width           =   1245
       End
@@ -884,7 +781,7 @@ Begin VB.Form frmEditTablePlan
          ForeColor       =   &H00FF0000&
          Height          =   435
          Left            =   13890
-         TabIndex        =   17
+         TabIndex        =   13
          Tag             =   "L6"
          Top             =   120
          Width           =   1275
@@ -893,7 +790,7 @@ Begin VB.Form frmEditTablePlan
    Begin prjTouchScreen.MyButton cmdPrint_Receipt 
       Height          =   780
       Left            =   13080
-      TabIndex        =   23
+      TabIndex        =   19
       Top             =   240
       Width           =   2040
       _ExtentX        =   3598
@@ -918,7 +815,7 @@ Begin VB.Form frmEditTablePlan
       FCOLO           =   16777215
       MCOL            =   16777215
       MPTR            =   1
-      MICON           =   "frmEditTablePlan.frx":01EC
+      MICON           =   "frmEditTablePlan.frx":0198
       UMCOL           =   -1  'True
       SOFT            =   0   'False
       PICPOS          =   4
@@ -1126,6 +1023,63 @@ End Sub
 Private Sub cmdHelp_Click()
     Showhelp "Setup Table Plan"
 End Sub
+
+Private Sub cmdRange_Click()
+    On Error GoTo Handle
+        If chkRange.Value = 1 Then
+            If txtWidth.Text = "" Then
+                MsgBox "Vui lßng chän mét bµn ®Ó lÊy kÝch th­íc chuÈn tr­íc khi ®Æt l¹i", vbInformation
+                Exit Sub
+            End If
+            Call Auto_Range(fraTable.Width, Sec_ID)
+            Set rsAlign = Nothing
+        End If
+        Call LoadTable(CStr(Sec_ID))
+    Exit Sub
+Handle:
+    MsgBox Err.Number & Err.Description & Me.name & "  - cmdRange_Click"
+End Sub
+Public Sub Auto_Range(Width_Layout As Integer, Location_ID As String)
+    On Error GoTo Handle
+        Dim rows, cols As Integer
+        Dim i, j As Integer
+        Dim Tablewidth, TableHeight As Integer
+        Dim rsLocate As New ADODB.Recordset
+        
+        Tablewidth = CInt("0" & txtWidth.Text)
+        TableHeight = CInt("0" & txtHeight.Text)
+        
+        If cnData.State = adStateClosed Then Set cnData = Get_Connection(ServerName, DataBaseName, UserLog, DB_Password)
+        Set rsLocate = OpenCriticalTable("Select * from Table_Diagram where Section_ID='" & Location_ID & "' order by Table_Number", cnData)
+         
+         cols = Int((Width_Layout - 500) / Tablewidth)
+        rows = Int(rsLocate.RecordCount / cols) + 1
+        rsLocate.MoveFirst
+        i = 0
+        For i = 1 To rows
+            For j = 1 To cols
+                With rsLocate
+                    If .EOF Then Exit Sub
+                    If i = 1 Then
+                            !YPos = i * TableHeight - TableHeight + 100
+                        Else
+                            !YPos = i * TableHeight - TableHeight + i * 100
+                        End If
+                        If j = 1 Then
+                            !XPos = j * Tablewidth - Tablewidth
+                        Else
+                            !XPos = j * Tablewidth - Tablewidth + j * 50
+                        End If
+                    .Update
+                    If Not .EOF Then .MoveNext
+                End With
+            Next j
+        Next i
+    Exit Sub
+Handle:
+    MsgBox Err.Number & Err.Description & Me.name & " Auto_Range"
+End Sub
+
 
 Private Sub cmdSection_Click(Index As Integer)
     On Error GoTo Handle
