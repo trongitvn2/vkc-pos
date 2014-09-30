@@ -358,7 +358,7 @@ Private Sub Form_KeyDown(KeyCode As Integer, Shift As Integer)
     With flexMainGroup
         If Shift = 2 Then   'dai dien cho cac fim ctrl,shift,alt
             If KeyCode = vbKeyDown Then 'to hop fim ctrl+keydown duoc click
-                If .Row < .Rows - 1 Then
+                If .Row < .rows - 1 Then
                     .Row = .Row + 1
                     If .Row > 16 Then .TopRow = .Row - 15
                 End If
@@ -383,9 +383,9 @@ Dim i As Integer
         .Width = 10600
         .WindowState = 0
     End With
-'    If cnData.State = 0 Then
-'        Set cnData = Get_Connection(WorkingFolder & "\Database.mdb", "100881administrator")
-'    End If
+    If cnData.State = 0 Then
+        Set cnData = Get_Connection(ServerName, DataBaseName, UserLog, DB_Password)
+    End If
     Set rsMainGroup = Open_Table(cnData, "MainGroup")
     If rsMainGroup.EOF Then
     For i = 1 To 99
@@ -409,7 +409,7 @@ Private Sub Initalize()
 '        SetColorFlexGrid flexMainGroup, 1, 1, .Cols
         .Row = 1
         .Col = 1
-        .ColSel = .Cols - 1
+        .ColSel = .cols - 1
         .ScrollTrack = True
     End With
     txtName.MaxLength = rsMainGroup.Fields("GroupName").DefinedSize
@@ -442,15 +442,15 @@ Private Sub flexMainGroup_Click()
     If fFlexClick Then Exit Sub
     fFlexClick = True
     With flexMainGroup
-        ReDim Preserve sTemp(.Cols - 1)
-        For i = 1 To .Cols - 1
+        ReDim Preserve sTemp(.cols - 1)
+        For i = 1 To .cols - 1
         DoEvents
             sTemp(i) = .TextMatrix(.Row, i)
         Next i
         For Each ctrl In Me
         DoEvents
             With ctrl
-                If TypeOf ctrl Is TextBox And ctrl.Tag <= flexMainGroup.Cols - 1 Then
+                If TypeOf ctrl Is TextBox And ctrl.Tag <= flexMainGroup.cols - 1 Then
                     .Text = sTemp(.Tag)
                 End If
             End With
@@ -485,10 +485,10 @@ Private Sub SetDataInFlex()
     SetHeaderFlexGrid
     With rsMainGroup
         If .RecordCount > 0 Then
-            flexMainGroup.Rows = .RecordCount + 1
+            flexMainGroup.rows = .RecordCount + 1
             Do While Not .EOF
             DoEvents
-                For i = 0 To flexMainGroup.Cols - 1
+                For i = 0 To flexMainGroup.cols - 1
                 DoEvents
                     Select Case i
                         Case 0: sTemp = "GroupNo"
@@ -501,12 +501,12 @@ Private Sub SetDataInFlex()
             Loop
         End If
     End With
-    flexMainGroup.ColSel = flexMainGroup.Cols - 1
+    flexMainGroup.ColSel = flexMainGroup.cols - 1
 End Sub
 
 Private Sub SetHeaderFlexGrid()
     With flexMainGroup
-        .Cols = rsMainGroup.Fields.count
+        .cols = rsMainGroup.Fields.count
         .AllowUserResizing = flexResizeBoth
         .FocusRect = flexFocusNone
         .SelectionMode = flexSelectionByRow

@@ -243,7 +243,7 @@ Private Sub Form_Load()
     On Error GoTo Handle
         DescArr = LoadLanguage(LngFile, "#03:010:")
         lblDatetime.Caption = Date & "  --  " & Format(Now, "HH:mm:ss")
-'        If cnData.State = 0 Then Set cnData = Get_Connection(WorkingFolder & "\database.mdb", "100881administrator")
+        If cnData.State = 0 Then Set cnData = Get_Connection(ServerName, DataBaseName, UserLog, DB_Password)
         Set rsTime_Clock = Open_Table(cnData, "Time_Clock")
         DateLog = Format(Day(Date), "00") & "/" & Format(Month(Date), "00") & "/" & Format(Year(Date), "0000")
     Exit Sub

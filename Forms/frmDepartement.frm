@@ -1305,12 +1305,12 @@ Private Sub cmdAdd_Click()
         Call clearText
     End If
     addNew = True
-    flexGroupA.Rows = flexGroupA.Rows + 1
-    flexGroupA.TextMatrix(flexGroupA.Rows - 1, 0) = MaxDept_ID
-    flexGroupA.TextMatrix(flexGroupA.Rows - 1, 1) = "GRPA"
-    flexGroupA.TextMatrix(flexGroupA.Rows - 1, 2) = "01"
-    flexGroupA.TextMatrix(flexGroupA.Rows - 1, 3) = "00"
-    flexGroupA.TextMatrix(flexGroupA.Rows - 1, 4) = "3647829"
+    flexGroupA.rows = flexGroupA.rows + 1
+    flexGroupA.TextMatrix(flexGroupA.rows - 1, 0) = MaxDept_ID
+    flexGroupA.TextMatrix(flexGroupA.rows - 1, 1) = "GRPA"
+    flexGroupA.TextMatrix(flexGroupA.rows - 1, 2) = "01"
+    flexGroupA.TextMatrix(flexGroupA.rows - 1, 3) = "00"
+    flexGroupA.TextMatrix(flexGroupA.rows - 1, 4) = "3647829"
 End Sub
 
 Private Sub cmdColor_Click()
@@ -1413,7 +1413,7 @@ On Error GoTo errHdl
     With flexGroupA
         If Shift = 2 Then
             If KeyCode = vbKeyDown Then
-                If .Row < .Rows - 1 Then
+                If .Row < .rows - 1 Then
                     .Row = .Row + 1
                     If .Row > 16 Then .TopRow = .Row - 15
                 End If
@@ -1439,9 +1439,9 @@ End Sub
 Private Sub Form_Load()
 On Error GoTo errHdl
     DescArr = LoadLanguage(LngFile, "#01:012:")
-'    If cnData.State = 0 Then
-'        Set cnData = Get_Connection(WorkingFolder & "\Database.mdb", "100881administrator")
-'    End If
+    If cnData.State = 0 Then
+        Set cnData = Get_Connection(ServerName, DataBaseName, UserLog, DB_Password)
+    End If
     Set rsGroupA = OpenCriticalTable("select * from Departments order by Dept_ID ASC", cnData)
     If rsGroupA.State = 0 Then Exit Sub
     Initialize
@@ -1475,7 +1475,7 @@ On Error GoTo errHdl
 '        SetColorFlexGrid flexGroupA, 1, 1, .Cols
         .Row = 1
         .Col = 1
-        .ColSel = .Cols - 1
+        .ColSel = .cols - 1
         .ScrollTrack = True
     End With
     
@@ -1555,8 +1555,8 @@ On Error GoTo errHdl
     If fFlexClick Then Exit Sub
     fFlexClick = True
     With flexGroupA
-        ReDim Preserve sTemp(.Cols)
-        For i = 0 To .Cols - 1
+        ReDim Preserve sTemp(.cols)
+        For i = 0 To .cols - 1
         DoEvents
             sTemp(i) = .TextMatrix(.Row, i)
         Next i
@@ -1564,7 +1564,7 @@ On Error GoTo errHdl
         DoEvents
             With ctrl
                 If .Tag <> "" Then
-                    If TypeOf ctrl Is TextBox And .Tag <= flexGroupA.Cols - 1 Then
+                    If TypeOf ctrl Is TextBox And .Tag <= flexGroupA.cols - 1 Then
                         .Text = sTemp(.Tag)
                         '.BackColor = flexGroupA.TextMatrix(flexGroupA.Row, 4)
                     ElseIf TypeOf ctrl Is ComboBox Then
@@ -1632,10 +1632,10 @@ On Error GoTo errHdl
     With rsGroupA
         .Sort = "Dept_ID ASC"
         If .RecordCount > 0 Then
-            flexGroupA.Rows = .RecordCount + 1
+            flexGroupA.rows = .RecordCount + 1
             Do While Not .EOF
             DoEvents
-                For i = 0 To flexGroupA.Cols - 1
+                For i = 0 To flexGroupA.cols - 1
                 DoEvents
                     Select Case i
                         Case 0: sTemp = "Dept_ID"
@@ -1662,7 +1662,7 @@ Private Sub SetHeaderFlexGrid()
 On Error GoTo errHdl
 
     With flexGroupA
-        .Cols = rsGroupA.Fields.count - 2
+        .cols = rsGroupA.Fields.count - 2
         .AllowUserResizing = flexResizeBoth
         .FocusRect = flexFocusNone
         .SelectionMode = flexSelectionByRow
@@ -1836,7 +1836,7 @@ On Error GoTo errHdl
     DoEvents
         With ctrl
             If .Tag <> "" Then
-                If TypeOf ctrl Is TextBox And .Tag <= flexGroupA.Cols - 1 Then
+                If TypeOf ctrl Is TextBox And .Tag <= flexGroupA.cols - 1 Then
                     S1(.Tag) = .Text
                 ElseIf TypeOf ctrl Is ComboBox Then
                     If .ListCount <> 0 Then
